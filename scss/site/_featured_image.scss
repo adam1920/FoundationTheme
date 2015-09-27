@@ -1,0 +1,12 @@
+#featured-hero {
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	position: relative;
+	height:rem-calc(200);
+}
+@media only screen and (min-width: $small-breakpoint){
+	#featured-hero{
+		height:rem-calc(400);
+	}
+}

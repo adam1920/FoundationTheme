@@ -1,0 +1,290 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Foundation Starter Theme 0.5\n"
+"POT-Creation-Date: 2015-09-27 10:54+0200\n"
+"PO-Revision-Date: 2015-09-27 11:33+0200\n"
+"Last-Translator: Adam Pery <adam@tadam.co.il>\n"
+"Language-Team: LANGUAGE <adam@tadam.co.il>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../searchform.php:13 ../searchform.php:16
+msgid "Search"
+msgstr "Поиск"
+
+#: ../404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Страница не найдена."
+
+#: ../404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"По данному адресу ничего не найдено. Попробуйте воспользоваться поиском."
+
+#: ../content-search.php:28 ../content-search.php:33 ../content-link.php:56
+#: ../content.php:56 ../content-featured-image.php:31 ../content-quote.php:59
+#: ../content-page.php:35 ../image.php:71
+msgid "Edit"
+msgstr "Изменить"
+
+#: ../content-none.php:15
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+#: ../content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: ../content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые "
+"слова."
+
+#: ../content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по "
+"сайту."
+
+#: ../author-bio.php:12
+msgid "Published by"
+msgstr "Автор"
+
+#: ../author-bio.php:34
+#, php-format
+msgid "View all posts by %s"
+msgstr "Посмотреть все записи автора %s"
+
+#: ../archive.php:53 ../index.php:50 ../search.php:42
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: ../archive.php:54 ../index.php:51 ../search.php:43
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: ../archive.php:55 ../index.php:52 ../content-link.php:40 ../content.php:41
+#: ../content-featured-image.php:25 ../content-quote.php:44
+#: ../content-page.php:29 ../image.php:63 ../search.php:44
+msgid "Page"
+msgstr "Страница"
+
+#: ../content-link.php:31 ../content.php:32 ../content-quote.php:33
+#: ../library/template-tags.php:238
+#, php-format
+msgid "Continue reading %s"
+msgstr "Читать далее %s"
+
+#: ../content-link.php:36 ../content.php:37 ../content-featured-image.php:21
+#: ../content-quote.php:40 ../content-page.php:25 ../image.php:59
+#: ../templates/hero.php:37
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: ../comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%2$s: %1$s комментарий"
+msgstr[1] "%2$s: %1$s комментариев"
+
+#: ../comments.php:54
+msgid "Comments are closed."
+msgstr "Комментарии запрещены."
+
+#: ../header.php:29
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: ../image.php:24
+msgid "Previous Image"
+msgstr "Предыдущее изображение"
+
+#: ../image.php:24
+msgid "Next Image"
+msgstr "Следующее изображение"
+
+#: ../image.php:84
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+"<span class=\"meta-nav\">Опубликовано в</span><span class=\"post-title\">"
+"%title</span>"
+
+#: ../single.php:33
+msgid "Next"
+msgstr "Далее"
+
+#: ../single.php:34
+msgid "Next post:"
+msgstr "Следующая запись:"
+
+#: ../single.php:36
+msgid "Previous"
+msgstr "Назад"
+
+#: ../single.php:37
+msgid "Previous post:"
+msgstr "Предыдущая запись:"
+
+#: ../search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: ../footer.php:36
+msgid "Proudly powered by"
+msgstr "Сайт работает на"
+
+#: ../footer.php:48
+msgid "Top"
+msgstr "Наверх"
+
+#: ../library/widget-areas.php:14
+msgid "Sidebar widgets"
+msgstr "Виджеты боковой панели"
+
+#: ../library/widget-areas.php:15
+msgid "Drag widgets to this sidebar container."
+msgstr "Перетащите виджеты в этот боковой контейнер."
+
+#: ../library/widget-areas.php:24
+msgid "Footer widgets"
+msgstr "Виджеты подвала"
+
+#: ../library/widget-areas.php:25
+msgid "Drag widgets to this footer container"
+msgstr "Перетащите виджеты в этот подвал."
+
+#: ../library/foundation.php:25
+msgid "&laquo;"
+msgstr ""
+
+#: ../library/foundation.php:26
+msgid "&raquo;"
+msgstr ""
+
+#: ../library/enqueue-scripts.php:63
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../library/enqueue-scripts.php:71
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../library/enqueue-scripts.php:79
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../library/enqueue-scripts.php:87
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: ../library/offcanvas-walker.php:46
+msgid "Back"
+msgstr "Назад"
+
+#: ../library/custom-nav.php:16
+msgid "Mobile Menu Settings"
+msgstr "Настройки меню мобильных аппаратов"
+
+#: ../library/custom-nav.php:17
+msgid "Controls the mobile menu"
+msgstr "Управление меню мобильных аппаратов"
+
+#: ../library/custom-nav.php:22
+msgid "Mobile navigation layout"
+msgstr "Макет навигации мобильных аппаратов"
+
+#: ../library/custom-nav.php:29
+msgid "Mobile navigation position"
+msgstr "Позиционная навигация мобильных аппаратов"
+
+#: ../library/custom-nav.php:38
+msgid "offcanvas"
+msgstr ""
+
+#: ../library/custom-nav.php:46
+msgid "left"
+msgstr "слева"
+
+#: ../library/template-tags.php:23
+msgid "Comment navigation"
+msgstr "Навигация по комментариям "
+
+#: ../library/template-tags.php:26
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: ../library/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Следующие комментарии"
+
+#: ../library/template-tags.php:49
+msgid "Featured"
+msgstr "Избранное"
+
+#: ../library/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Формат"
+
+#: ../library/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Автор"
+
+#: ../library/template-tags.php:85
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Автор"
+
+#: ../library/template-tags.php:91 ../library/template-tags.php:99
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: ../library/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Рубрики"
+
+#: ../library/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Метки"
+
+#: ../library/template-tags.php:113
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Полный размер"
+
+#: ../library/template-tags.php:123
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Добавить комментарий<span class=\"screen-reader-text\"> к записи %s</span>"

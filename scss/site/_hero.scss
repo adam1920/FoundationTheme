@@ -1,0 +1,21 @@
+#homepage-hero{
+	min-height:rem-calc(450);
+	padding:rem-calc(100) rem-calc(20) 0;
+	background:{
+		position: right top;
+    		repeat: no-repeat;
+		size: cover;
+	}
+}
+.site-branding{
+	@include text-shadow();
+	.site-title{
+		font-size:4em;
+		font-weight:500;
+		line-height:100%;
+	}
+	.site-description{
+		font-size:2em;
+		font-weight:300;
+	}
+}

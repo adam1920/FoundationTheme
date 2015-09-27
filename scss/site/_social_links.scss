@@ -1,0 +1,105 @@
+.social-navigation {
+	a{
+    		display: inline-block;
+    		font-family: FontAwesome;
+    		font-feature-settings: normal;
+    		font-kerning: auto;
+    		font-language-override: normal;
+    		font-size: inherit;
+    		font-size-adjust: none;
+    		font-stretch: normal;
+    		font-style: normal;
+		font-synthesis: weight style;
+    		font-variant: normal;
+    		font-weight: normal;
+    		line-height: 1;
+    		text-rendering: auto;
+		padding:rem-calc(5);
+		@include border-radius(100%);
+	}
+	a::before {
+		font-size: rem-calc(30);
+		color:$steel;
+	}
+	a:hover::before{
+		color:lighten($steel, 10%);
+	}
+	a[href*="codepen.io"]:before {
+		content: "\f1cb";
+	}
+	a[href*="digg.com"]:before {
+		content: "\f1a6";
+	}
+	a[href*="dribbble.com"]:before {
+		content: "\f17d";
+	}
+	a[href*="dropbox.com"]:before {
+		content: "\f16b";
+	}
+	a[href*="facebook.com"]:before {
+		content: "\f09a";
+	}
+	 a[href*="flickr.com"]:before {
+		content: "\f16e";
+	}
+	a[href*="foursquare.com"]:before {
+		content: "\f180";
+	}
+	a[href*="plus.google.com"]:before {
+		content: "\f0d5";
+	}
+	a[href*="github.com"]:before {
+		content: "\f09b";
+	}
+	a[href*="instagram.com"]:before {
+		content: "\f16d";
+	}
+	a[href*="linkedin.com"]:before {
+		content: "\f0e1";
+	}
+	a[href*="pinterest.com"]:before {
+		content: "\f231";
+	}
+	a[href*="getpocket.com"]:before {
+		content: "\f265";
+	}
+	a[href*="reddit.com"]:before {
+		content: "\f1a1";
+	}
+	a[href*="stumbleupon.com"]:before {
+		content: "\f1a4";
+	}
+	a[href*="tumblr.com"]:before {
+		content: "\f173";
+	}
+	a[href*="twitter.com"]:before {
+		content: "\f099";
+	}
+	a[href*="vimeo.com"]:before {
+		content: "\f27d";
+	}
+	a[href*="wordpress.com"]:before,
+	a[href*="wordpress.org"]:before {
+		content: "\f19a";
+	}
+	a[href*="youtube.com"]:before {
+		content: "\f167";
+	}
+	a[href*="mailto:"]:before, 
+	a[href*="contact-us"]:before {
+		content: "\f0e0";
+	}
+	a[href*="spotify.com"]:before {
+		content: "\f1bc";
+	}
+	a[href*="twitch.tv"]:before {
+		content: "\f1e8";
+	}
+	a[href$="/feed/"]:before {
+		content: "\f09e";
+	}
+	a[href*="skype.com"]:before {
+		content: "\f17e";
+	}
+
+}

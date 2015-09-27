@@ -1,0 +1,19 @@
+@include sticky-footer(130px, "#page", "#layout_footer", "#colophon");
+
+.site-footer{
+	background:$jumbo;
+}
+.site-footer{
+        background:$oil;
+	.footer-wrapper{
+        	padding:rem-calc(23) 0;
+		background:$oil;
+	        color:$steel;
+       	        a{
+               	        color:lighten($steel, 10%);
+                        &:hover{
+       	                        color:lighten($steel, 20%);
+                       	}
+                }
+	}
+}

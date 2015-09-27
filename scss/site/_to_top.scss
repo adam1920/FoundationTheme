@@ -1,0 +1,65 @@
+$cd_bkg:  #e86256;
+.cd-top {
+  	display: inline-block;
+  	height: rem-calc(40);
+  	width: rem-calc(40);
+  	position: fixed;
+  	bottom: rem-calc(40);
+  	right: rem-calc(10);
+  	@include box-shadow(rgba(0, 0, 0, 0.05) 0 0 rem-calc(10));
+  	/* image replacement properties */
+  	overflow: hidden;
+  	text-indent: 100%;
+  	white-space: nowrap;
+  	background: rgba(232, 98, 86, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+  	visibility: hidden;
+  	@include opacity(0);
+	@include transition(opacity .3s 0s, visibility 0s .3s);
+
+	&.cd-is-visible, &.cd-fade-out{
+		@include transition(opacity .3s 0s, visibility 0s 0s);
+	}
+	&.cd-is-visible {
+  		/* the button becomes visible */
+	  	visibility: visible;
+  		@include opacity(1);
+	}
+	&.cd-fade-out {
+		/* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+	  	@include opacity(0.5);
+	}
+}
+
+.no-touch{ 
+	.cd-top:hover {
+  		background-color: $cd_bkg;
+	  	@include opacity(1);
+		@include transition(opacity .3s 0s, visibility 0s 0s);
+	}
+}
+@media only screen and (min-width: $small-breakpoint) {
+  	.cd-top {
+   		right: rem-calc(20);
+    		bottom: rem-calc(20);
+  	}
+	[dir=rtl]{
+		.cd-top {
+	                right: auto;
+	                left: rem-calc(20);
+        	}
+	}
+}
+@media only screen and (min-width: $medium-breakpoint) {
+  	.cd-top {
+    		height: rem-calc(60);
+    		width: rem-calc(60);
+    		right: rem-calc(30);
+    		bottom: rem-calc(30);
+  	}
+	[dir=rtl]{
+                .cd-top {
+                        right: auto;
+                        left: rem-calc(30);
+                }
+        }
+}

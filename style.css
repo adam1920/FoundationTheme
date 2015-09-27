@@ -1,0 +1,34 @@
+/*
+ * Theme Name:         	Foundation Theme
+ * Theme URI:          	http://foundationtheme.tadam.co.il/
+ * Author:             	Adam Pery
+ * Author URI:         	http://foundationtheme.tadam.co.il/
+ * Description:        	The primary WordPress starter-theme built on Foundation 5 by Zurb using CSS Compass Framework
+ * Version:            	0.5.0
+ * License: 		GNU General Public License v2 or later
+ * License URI: 	http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags:		one-column, two-columns, right-sidebar, left-sidebar, flexible-width, css compass, rtl-language-support, translation-ready, sticky-footer, semantic, mobile first, customizable, fully responsive, accessibility-ready
+ * Text Domain: 	foundation
+ * */
+
+/* ----------------------------------------------------------------------------
+ *
+ * We will not be using vanilla CSS. We're using Sass
+ * 
+ * The theme optimized to use with CSS Compass Framework http://compass-style.org/
+ * Read how to use Compass to editing SCSS in this theme: http://foundationtheme.tadam.co.il/ *
+ *
+ * Sass is a superset of CSS that adds in amazing features
+ * such as variables, nested selectors and loops. It's also
+ * the easiest way to customize Foundation.
+ *
+ * All Sass files are located in the /scss folder.
+ *
+ * More info on how to use Sass with Foundation can be found here:
+ * http://foundation.zurb.com/docs/sass.html
+ *
+ * if you for some reason would like to write plain css instead of using Sass,
+ * you could just enqueue this file (style.css) to the header and add your styles in this file
+------------------------------------------------------------------------------ */
+
+

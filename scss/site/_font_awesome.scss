@@ -1,0 +1,34 @@
+.comment-edit-link, time, .comment-reply-link, .post-edit-link{
+    display: inline-block;
+    font-family: FontAwesome;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: inherit;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+.comment-edit-link:before, .post-edit-link:before{
+	content:"\f040";
+	margin-right:rem-calc(4);
+}
+time:before{
+        content:"\f073";
+        margin-right:rem-calc(4);
+}
+.comment-reply-link:before{
+	content:"\f112";
+        margin-right:rem-calc(4);
+}
+[dir=rtl]{
+	.comment-edit-link:before, time:before, .comment-reply-link:before, .edit-link:before{
+	        margin-right:0;
+	        margin-left:rem-calc(4);
+	}
+}

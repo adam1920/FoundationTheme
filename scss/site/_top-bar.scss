@@ -1,0 +1,6 @@
+.top-bar-section li.active:not(.has-form) a:not(.button), .top-bar-section li.active:not(.has-form) a:hover:not(.button){
+	background:$jet;
+}
+.top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus{
+	background:darken($primary-color, 10%);
+}

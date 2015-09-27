@@ -1,0 +1,9 @@
+@import "compass";
+@import "compass/layout/sticky-footer";
+
+.off-canvas-wrap{
+        overflow:visible;
+}
+.off-canvas-wrap, .inner-wrap{
+	height:100%;
+}

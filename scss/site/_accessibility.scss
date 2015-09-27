@@ -1,0 +1,45 @@
+
+/**
+ * 7.0 Accessibility
+ */
+
+/* Text meant only for screen readers */
+.says,
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+}
+
+/* must have higher specificity than alternative color schemes inline styles */
+.site .skip-link {
+	background-color: $white-smoke;
+	@include box-shadow();
+	color: $primary-color;
+	display: block;
+	font-weight: bold;
+	font-size:rem-calc(14);
+	left: -9999em;
+	outline: none;
+	padding: rem-calc(15) rem-calc(23) rem-calc(14);
+	text-decoration: none;
+	text-transform: none;
+	top: -9999em;
+}
+
+.logged-in .site .skip-link {
+	@include box-shadow();
+	font-weight: bold; 
+        font-size:rem-calc(14);
+}
+
+.site .skip-link:focus {
+	clip: auto;
+	height: auto;
+	left: rem-calc(6);
+	top: rem-calc(7);
+	width: auto;
+	z-index: 100000;
+}

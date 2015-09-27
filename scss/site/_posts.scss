@@ -1,0 +1,98 @@
+.alignleft{
+	float:left;
+}
+.alignright{
+	float:right;
+}
+.aligncenter{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.site-main {
+    	padding: 8.3333% 0;
+}
+.hentry, .page-header, .page-content {
+    	@include box-shadow();
+}
+.hentry {
+    	background-color: $white;
+    	padding-top: 7.6923%;
+    	position: relative;
+}
+.post-thumbnail {
+    	margin-bottom: rem-calc(48);
+	display:block;
+	@include transition(opacity, 1s ease-out);
+}
+a.post-thumbnail:hover,
+a.post-thumbnail:focus {
+	@include opacity(0.85);
+	@include transition(opacity, 1s ease-out);
+}
+.entry-header {
+    	padding: 0 10%;
+}
+.entry-title, .widecolumn h2 {
+    	margin-bottom: 1.2308em;
+}
+.hentry.has-post-thumbnail {
+   	padding-top: 0;
+}
+body.page-template-featured-image .hentry.has-post-thumbnail{
+	padding-top: 7.6923%;
+}
+.entry-content, .entry-summary {
+    	padding: 0 10% 10%;
+}
+blockquote.alignright, .wp-caption.alignright, img.alignright {
+    	margin: 0.4211em 0 1.6842em 1.6842em;
+}
+blockquote.alignleft, .wp-caption.alignleft, img.alignleft {
+        margin: 0.4211em 1.6842em 1.6842em 0;
+}
+blockquote.aligncenter, .wp-caption.aligncenter, img.aligncenter {
+    	margin-bottom: 1.6842em;
+    	margin-top: 0.4211em;
+}
+.entry-footer {
+    	padding: 5% 10%;
+    	background-color: $vapor;
+    	color: rgba(51, 51, 51, 0.7);
+    	line-height: 1.5;
+	color:$base;	
+	a{
+		color:$base;
+		&:hover{
+			color:lighten($base, 10%);
+		}
+	}
+}
+.posted-on, .byline, .cat-links, .tags-links, .comments-link, .entry-format, .full-size-link {
+    	margin-right: 1em;
+}
+.hentry + .hentry, .page-header + .hentry, .page-header + .page-content {
+    	margin-top: 8.3333%;
+}
+.updated:not(.published) {
+    	display: none;
+}
+.page-header {
+    	border-bottom: 0 none;
+    	border-left: rem-calc(7) solid $oil;
+	padding: 4.1666% 8.3333%;
+	background-color:$white;
+}
+
+.format-aside .entry-title, .format-image .entry-title, .format-video .entry-title, .format-quote .entry-title, .format-gallery .entry-title, .format-status .entry-title, .format-link .entry-title, .format-audio .entry-title, .format-chat .entry-title {
+    font-size: rem-calc(24);
+    line-height: 1.4545;
+    margin-bottom: 1.4545em;
+}
+
+[dir='rtl']{
+	.page-header{
+		border-left: none;
+		border-right: rem-calc(7) solid $oil;
+	}
+}

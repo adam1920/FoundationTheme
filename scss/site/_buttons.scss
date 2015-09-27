@@ -1,0 +1,10 @@
+$wb_grey: #e3e5e3;
+
+.button.white-button{
+	border:1px solid $wb_grey;
+	background:$white;
+	color:$steel;
+	&:hover{
+		background:$snow;
+	}
+}

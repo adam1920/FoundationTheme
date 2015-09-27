@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Foundation Starter Theme 0.5\n"
+"POT-Creation-Date: 2015-09-27 10:54+0200\n"
+"PO-Revision-Date: 2015-09-27 11:33+0200\n"
+"Last-Translator: Adam Pery <adam@tadam.co.il>\n"
+"Language-Team: LANGUAGE <adam@tadam.co.il>\n"
+"Language: hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../searchform.php:13 ../searchform.php:16
+msgid "Search"
+msgstr "חפש"
+
+#: ../404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "העמוד לא נמצא."
+
+#: ../404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "נראה כי אין כאן כלום. אולי כדאי לנסות את אפשרות החיפוש."
+
+#: ../content-search.php:28 ../content-search.php:33 ../content-link.php:56
+#: ../content.php:56 ../content-featured-image.php:31 ../content-quote.php:59
+#: ../content-page.php:35 ../image.php:71
+msgid "Edit"
+msgstr "עריכה"
+
+#: ../content-none.php:15
+msgid "Nothing Found"
+msgstr "לא נמצא "
+
+#: ../content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "מוכן לפרסם את הפוסט הראשון שלך? <a href=\"%1$s\">התחל כאן</a>."
+
+#: ../content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"לא נמצאו תוצאות התואמות לביטוי החיפוש, ניתן לנסות שוב עם ביטויים אחרים."
+
+#: ../content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "נראה כי לא ניתן למצוא את מה שחיפשת, אולי חיפוש יעזור."
+
+#: ../author-bio.php:12
+msgid "Published by"
+msgstr "מאת "
+
+#: ../author-bio.php:34
+#, php-format
+msgid "View all posts by %s"
+msgstr "הצג פוסטים מאת %s"
+
+#: ../archive.php:53 ../index.php:50 ../search.php:42
+msgid "Previous page"
+msgstr "עמוד קודם"
+
+#: ../archive.php:54 ../index.php:51 ../search.php:43
+msgid "Next page"
+msgstr "עמוד הבא"
+
+#: ../archive.php:55 ../index.php:52 ../content-link.php:40 ../content.php:41
+#: ../content-featured-image.php:25 ../content-quote.php:44
+#: ../content-page.php:29 ../image.php:63 ../search.php:44
+msgid "Page"
+msgstr "עמוד"
+
+#: ../content-link.php:31 ../content.php:32 ../content-quote.php:33
+#: ../library/template-tags.php:238
+#, php-format
+msgid "Continue reading %s"
+msgstr "להמשיך לקרוא %s"
+
+#: ../content-link.php:36 ../content.php:37 ../content-featured-image.php:21
+#: ../content-quote.php:40 ../content-page.php:25 ../image.php:59
+#: ../templates/hero.php:37
+msgid "Pages:"
+msgstr "עמודים:"
+
+#: ../comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "תגובה אחת בנושא &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s תגובות בנושא &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:54
+msgid "Comments are closed."
+msgstr "סגור לתגובות."
+
+#: ../header.php:29
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
+
+#: ../image.php:24
+msgid "Previous Image"
+msgstr "תמונה קודמת"
+
+#: ../image.php:24
+msgid "Next Image"
+msgstr "תמונה הבאה"
+
+#: ../image.php:84
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+"<span class=\"meta-nav\">פורסם ב</span><span class=\"post-title\">%title</"
+"span>"
+
+#: ../single.php:33
+msgid "Next"
+msgstr "הבא"
+
+#: ../single.php:34
+msgid "Next post:"
+msgstr "הפוסט הבא:"
+
+#: ../single.php:36
+msgid "Previous"
+msgstr "קודם"
+
+#: ../single.php:37
+msgid "Previous post:"
+msgstr "הפוסט הקודם:"
+
+#: ../search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "תוצאות חיפוש עבור %s"
+
+#: ../footer.php:36
+msgid "Proudly powered by"
+msgstr "פועל על"
+
+#: ../footer.php:48
+msgid "Top"
+msgstr "חלק עליון"
+
+#: ../library/widget-areas.php:14
+msgid "Sidebar widgets"
+msgstr "יישומונים סרגל הצד"
+
+#: ../library/widget-areas.php:15
+msgid "Drag widgets to this sidebar container."
+msgstr "גרור יישומונים למכל סרגל צד זה."
+
+#: ../library/widget-areas.php:24
+msgid "Footer widgets"
+msgstr "יישומונים תחתונה"
+
+#: ../library/widget-areas.php:25
+msgid "Drag widgets to this footer container"
+msgstr "גרור יישומונים למכל תחתונה זה"
+
+#: ../library/foundation.php:25
+msgid "&laquo;"
+msgstr ""
+
+#: ../library/foundation.php:26
+msgid "&raquo;"
+msgstr ""
+
+#: ../library/enqueue-scripts.php:63
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../library/enqueue-scripts.php:71
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../library/enqueue-scripts.php:79
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../library/enqueue-scripts.php:87
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: ../library/offcanvas-walker.php:46
+msgid "Back"
+msgstr "חזרה"
+
+#: ../library/custom-nav.php:16
+msgid "Mobile Menu Settings"
+msgstr "הגדרות תפריט עבור מכשירים ניידים"
+
+#: ../library/custom-nav.php:17
+msgid "Controls the mobile menu"
+msgstr "בקרת תפריט עבור מכשירים ניידים"
+
+#: ../library/custom-nav.php:22
+msgid "Mobile navigation layout"
+msgstr "פריסת ניווט עבור מכשירים ניידים"
+
+#: ../library/custom-nav.php:29
+msgid "Mobile navigation position"
+msgstr "מיקום ניווט עבור מכשירים ניידים"
+
+#: ../library/custom-nav.php:38
+msgid "offcanvas"
+msgstr ""
+
+#: ../library/custom-nav.php:46
+msgid "left"
+msgstr "שמאל"
+
+#: ../library/template-tags.php:23
+msgid "Comment navigation"
+msgstr "ניווט תגובות"
+
+#: ../library/template-tags.php:26
+msgid "Older Comments"
+msgstr "תגובות ישנות"
+
+#: ../library/template-tags.php:30
+msgid "Newer Comments"
+msgstr "תגובות חדשות"
+
+#: ../library/template-tags.php:49
+msgid "Featured"
+msgstr "ראשי"
+
+#: ../library/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "פורמט"
+
+#: ../library/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "פורסם בתאריך"
+
+#: ../library/template-tags.php:85
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "מחבר"
+
+#: ../library/template-tags.php:91 ../library/template-tags.php:99
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: ../library/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "קטגוריות"
+
+#: ../library/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "תגיות"
+
+#: ../library/template-tags.php:113
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "מסך מלא"
+
+#: ../library/template-tags.php:123
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "השאירו תגובה<span class=\"screen-reader-text\"> עבור %s</span>"
