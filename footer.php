@@ -33,7 +33,7 @@
 					<?php do_action( 'foundation_credits' ); ?>
 				</div>
 				<div class="small-6 columns text-right">
-					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfifteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfifteen' ), 'WordPress' ); ?></a>
+					<a href="<?php echo esc_url( __( 'https://wordpress.org/', FOUNDATION_THEME_DOMAIN ) ); ?>"><?php printf( __( 'Proudly powered by %s', FOUNDATION_THEME_DOMAIN ), 'WordPress' ); ?></a>
 				</div>
 			</div><!-- .site-info -->
 		</div><!-- /.footer-wrapper -->
