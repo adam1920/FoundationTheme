@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Foundation Starter Theme 0.5\n"
-"POT-Creation-Date: 2015-09-29 05:41+0200\n"
-"PO-Revision-Date: 2015-09-29 07:19+0200\n"
+"POT-Creation-Date: 2015-09-29 09:02+0200\n"
+"PO-Revision-Date: 2015-09-29 09:03+0200\n"
 "Last-Translator: Adam Pery <adam@tadam.co.il>\n"
 "Language-Team: LANGUAGE <adam@tadam.co.il>\n"
 "Language: lt_LT\n"
@@ -97,7 +97,8 @@ msgstr "Skaityti toliau: %s"
 msgid "Pages:"
 msgstr "Puslapiai:"
 
-#: comments.php:28
+#: ../comments.php:29
+#, fuzzy, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -152,8 +153,13 @@ msgid "Search Results for: %s"
 msgstr "Paieškos rezultatai: %s"
 
 #: ../footer.php:36
-msgid "Proudly powered by"
-msgstr "sistema"
+msgid "https://wordpress.org/"
+msgstr "https://lt.wordpress.org/"
+
+#: ../footer.php:36
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "sistema %s"
 
 #: ../footer.php:48
 msgid "Top"
@@ -183,22 +189,22 @@ msgstr ""
 msgid "&raquo;"
 msgstr ""
 
-#: ../library/enqueue-scripts.php:63
+#: ../library/enqueue-scripts.php:75
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "įjungta"
 
-#: ../library/enqueue-scripts.php:71
+#: ../library/enqueue-scripts.php:83
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "įjungta"
 
-#: ../library/enqueue-scripts.php:79
+#: ../library/enqueue-scripts.php:91
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "įjungta"
 
-#: ../library/enqueue-scripts.php:87
+#: ../library/enqueue-scripts.php:99
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "nėra kalbos poaibio"
@@ -370,6 +376,3 @@ msgstr "Komentuokite<span class=\"screen-reader-text\"> įrašą %s</span>"
 
 #~ msgid "Social Links Menu"
 #~ msgstr "Socialinių nuorodų meniu"
-
-#~ msgid "https://wordpress.org/"
-#~ msgstr "https://wordpress.org/"

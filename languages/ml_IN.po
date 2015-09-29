@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Foundation Starter Theme 0.5\n"
-"POT-Creation-Date: 2015-09-29 07:31+0200\n"
-"PO-Revision-Date: 2015-09-29 07:33+0200\n"
+"POT-Creation-Date: 2015-09-29 09:04+0200\n"
+"PO-Revision-Date: 2015-09-29 09:05+0200\n"
 "Last-Translator: Adam Pery <adam@tadam.co.il>\n"
 "Language-Team: LANGUAGE <adam@tadam.co.il>\n"
 "Language: ml_IN\n"
@@ -147,8 +147,13 @@ msgid "Search Results for: %s"
 msgstr "വിവരങ്ങള്‍: %s"
 
 #: ../footer.php:36
-msgid "Proudly powered by"
-msgstr "അഭിമാനത്തൊടെ"
+msgid "https://wordpress.org/"
+msgstr "https://ml.wordpress.org/"
+
+#: ../footer.php:36
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "അഭിമാനത്തൊടെ %s"
 
 #: ../footer.php:48
 msgid "Top"
@@ -178,22 +183,22 @@ msgstr ""
 msgid "&raquo;"
 msgstr ""
 
-#: ../library/enqueue-scripts.php:63
+#: ../library/enqueue-scripts.php:75
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "മുമ്പോട്ട്‌"
 
-#: ../library/enqueue-scripts.php:71
+#: ../library/enqueue-scripts.php:83
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "മുമ്പോട്ട്‌"
 
-#: ../library/enqueue-scripts.php:79
+#: ../library/enqueue-scripts.php:91
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "മുമ്പോട്ട്‌"
 
-#: ../library/enqueue-scripts.php:87
+#: ../library/enqueue-scripts.php:99
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "ഉപഗണങ്ങളില്ല"
@@ -358,6 +363,3 @@ msgstr "അഭിപ്രായം രേഖപെടുത്തുക<span cl
 
 #~ msgid "Social Links Menu"
 #~ msgstr "സോഷ്യല്‍ ലിങ്ക് പട്ടിക"
-
-#~ msgid "https://wordpress.org/"
-#~ msgstr "https://wordpress.org/"

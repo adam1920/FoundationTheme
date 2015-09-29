@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Foundation Starter Theme 0.5\n"
-"POT-Creation-Date: 2015-09-27 10:54+0200\n"
-"PO-Revision-Date: 2015-09-29 07:23+0200\n"
+"POT-Creation-Date: 2015-09-29 09:00+0200\n"
+"PO-Revision-Date: 2015-09-29 09:02+0200\n"
 "Last-Translator: Adam Pery <adam@tadam.co.il>\n"
 "Language-Team: LANGUAGE <adam@tadam.co.il>\n"
 "Language: he_IL\n"
@@ -93,7 +93,8 @@ msgstr "להמשיך לקרוא %s"
 msgid "Pages:"
 msgstr "עמודים:"
 
-#: comments.php:28
+#: ../comments.php:29
+#, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -147,8 +148,13 @@ msgid "Search Results for: %s"
 msgstr "תוצאות חיפוש עבור %s"
 
 #: ../footer.php:36
-msgid "Proudly powered by"
-msgstr "פועל על"
+msgid "https://wordpress.org/"
+msgstr "https://he.wordpress.org/"
+
+#: ../footer.php:36
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "פועל על %s"
 
 #: ../footer.php:48
 msgid "Top"
@@ -178,22 +184,22 @@ msgstr ""
 msgid "&raquo;"
 msgstr ""
 
-#: ../library/enqueue-scripts.php:63
+#: ../library/enqueue-scripts.php:75
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr ""
 
-#: ../library/enqueue-scripts.php:71
+#: ../library/enqueue-scripts.php:83
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr ""
 
-#: ../library/enqueue-scripts.php:79
+#: ../library/enqueue-scripts.php:91
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr ""
 
-#: ../library/enqueue-scripts.php:87
+#: ../library/enqueue-scripts.php:99
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr ""
