@@ -13,6 +13,6 @@ HTML;
 
 add_action('foundation_credits', 'foundation_credits_func');
 function foundation_credits_func(){
-	$output  = '<a href="http://foundationtheme.tadam.co.il/">'.__('The Foundation Theme',FOUNDATION_THEME_DOMAIN).'</a>';
+	$output  = '<a href="http://foundationtheme.tadam.co.il/">'.__('The Foundation Theme','foundation').'</a>';
 	echo $output;
 }

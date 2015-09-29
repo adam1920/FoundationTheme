@@ -25,12 +25,12 @@
 
 		<footer class="entry-footer">
 			<?php foundation_entry_meta(); ?>
-			<?php edit_post_link( __( 'Edit', FOUNDATION_THEME_DOMAIN ), '<span class="edit-link">', '</span>' ); ?>
+			<?php edit_post_link( __( 'Edit', 'foundation' ), '<span class="edit-link">', '</span>' ); ?>
 		</footer><!-- .entry-footer -->
 
 	<?php else : ?>
 
-		<?php edit_post_link( __( 'Edit', FOUNDATION_THEME_DOMAIN ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer><!-- .entry-footer -->' ); ?>
+		<?php edit_post_link( __( 'Edit', 'foundation' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer><!-- .entry-footer -->' ); ?>
 
 	<?php endif; ?>
 

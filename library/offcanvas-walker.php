@@ -43,7 +43,7 @@ class Foundation_Offcanvas_Walker extends Walker_Nav_Menu {
         }
 
         function start_lvl( &$output, $depth = 0, $args = array() ) {
-                $output .= "\n<ul class=\"{$this->direction}-submenu\">\n<li class=\"back\"><a href=\"#\">". __( 'Back', FOUNDATION_THEME_DOMAIN ) ."</a></li>\n";
+                $output .= "\n<ul class=\"{$this->direction}-submenu\">\n<li class=\"back\"><a href=\"#\">". __( 'Back', 'foundation' ) ."</a></li>\n";
         }
 
 }

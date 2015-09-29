@@ -5,7 +5,7 @@ Tested up to: WordPress 4.3-trunk
 Version: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: Foundation, one-column, two-columns, left-sidebar, right-sidebar, featured-image, hero, full-width, flexible-width, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, microformats, post-formats, rtl-language-support, threaded-comments, translation-ready, scss, sass, compass, sticky-footer, semantic, mobile first, customizable, fully responsive
+Tags: Foundation, one-column, two-columns, left-sidebar, right-sidebar, featured-image, hero, full-width, fluid-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, microformats, post-formats, rtl-language-support, threaded-comments, translation-ready, scss, sass, compass, sticky-footer, semantic, mobile first, customizable, fully responsive, editor-style, responsive-layout
 
 == Description ==
 The Foundation Starter Theme is super-clean, content-focused, and designed to bring a little more simplicity to our website. Its careful attention to typography, elegant and harmonious margins, makes it beautiful in multiple languages around the world.

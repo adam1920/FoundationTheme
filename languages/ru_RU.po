@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Foundation Starter Theme 0.5\n"
-"POT-Creation-Date: 2015-09-29 09:05+0200\n"
-"PO-Revision-Date: 2015-09-29 09:05+0200\n"
+"POT-Creation-Date: 2015-09-29 14:14+0200\n"
+"PO-Revision-Date: 2015-09-29 14:14+0200\n"
 "Last-Translator: Adam Pery <adam@tadam.co.il>\n"
 "Language-Team: LANGUAGE <adam@tadam.co.il>\n"
 "Language: ru_RU\n"
@@ -183,11 +183,11 @@ msgstr "Виджеты подвала"
 msgid "Drag widgets to this footer container"
 msgstr "Перетащите виджеты в этот подвал."
 
-#: ../library/foundation.php:25
+#: ../library/foundation.php:29
 msgid "&laquo;"
 msgstr ""
 
-#: ../library/foundation.php:26
+#: ../library/foundation.php:30
 msgid "&raquo;"
 msgstr ""
 
@@ -230,14 +230,6 @@ msgstr "Макет навигации мобильных аппаратов"
 #: ../library/custom-nav.php:29
 msgid "Mobile navigation position"
 msgstr "Позиционная навигация мобильных аппаратов"
-
-#: ../library/custom-nav.php:38
-msgid "offcanvas"
-msgstr ""
-
-#: ../library/custom-nav.php:46
-msgid "left"
-msgstr "слева"
 
 #: ../library/template-tags.php:23
 msgid "Comment navigation"
@@ -295,3 +287,6 @@ msgstr "Полный размер"
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 "Добавить комментарий<span class=\"screen-reader-text\"> к записи %s</span>"
+
+#~ msgid "left"
+#~ msgstr "слева"

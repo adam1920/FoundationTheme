@@ -8,7 +8,7 @@ get_header(); ?>
 	<div class="row">
 		<div class="small-12 medium-8 columns">
 			<div class="site-branding">
-				<p class="site-title"><a rel="home" href="<?php bloginfo( 'url' ); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="site-title"><a rel="home" href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></p>
 				<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 			</div>
 		</div>
@@ -34,7 +34,7 @@ get_header(); ?>
 					<?php the_content(); ?>
 				</div>
 				<footer>
-					<?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', FOUNDATION_THEME_DOMAIN ), 'after' => '</p></nav>' ) ); ?>
+					<?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundation' ), 'after' => '</p></nav>' ) ); ?>
 					<p><?php the_tags(); ?></p>
 				</footer>
 			</article>

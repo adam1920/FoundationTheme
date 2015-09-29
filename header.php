@@ -26,7 +26,7 @@
 <?php endif; ?>
 
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', FOUNDATION_THEME_DOMAIN ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'foundation' ); ?></a>
 
 	<?php
         if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' || !get_theme_mod( 'wpt_mobile_menu_layout' ) ) :

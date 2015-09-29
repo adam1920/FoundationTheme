@@ -47,9 +47,9 @@ get_header(); ?>
 			} else {
 				// Previous/next page navigation.
 				the_posts_pagination( array(
-					'prev_text'          => __( 'Previous page', FOUNDATION_THEME_DOMAIN ),
-					'next_text'          => __( 'Next page', FOUNDATION_THEME_DOMAIN ),
-					'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', FOUNDATION_THEME_DOMAIN ) . ' </span>',
+					'prev_text'          => __( 'Previous page', 'foundation' ),
+					'next_text'          => __( 'Next page', 'foundation' ),
+					'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'foundation' ) . ' </span>',
 				) );
 			}
 

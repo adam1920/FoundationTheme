@@ -16,7 +16,7 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', FOUNDATION_THEME_DOMAIN ), get_search_query() ); ?></h1>
+				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'foundation' ), get_search_query() ); ?></h1>
 			</header><!-- .page-header -->
 
 			<?php
@@ -39,9 +39,9 @@ get_header(); ?>
                         } else {
                                 // Previous/next page navigation.
                                 the_posts_pagination( array(
-                                        'prev_text'          => __( 'Previous page', FOUNDATION_THEME_DOMAIN ),
-                                        'next_text'          => __( 'Next page', FOUNDATION_THEME_DOMAIN ),
-                                        'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', FOUNDATION_THEME_DOMAIN ) . ' </span>',
+                                        'prev_text'          => __( 'Previous page', 'foundation' ),
+                                        'next_text'          => __( 'Next page', 'foundation' ),
+                                        'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'foundation' ) . ' </span>',
                                 ) );
                         }
 

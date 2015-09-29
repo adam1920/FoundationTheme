@@ -33,7 +33,7 @@
 					<?php do_action( 'foundation_credits' ); ?>
 				</div>
 				<div class="small-6 columns text-right">
-					<a href="<?php echo esc_url( __( 'https://wordpress.org/', FOUNDATION_THEME_DOMAIN ) ); ?>"><?php printf( __( 'Proudly powered by %s', FOUNDATION_THEME_DOMAIN ), 'WordPress' ); ?></a>
+					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'foundation' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'foundation' ), 'WordPress' ); ?></a>
 				</div>
 			</div><!-- .site-info -->
 		</div><!-- /.footer-wrapper -->
@@ -45,7 +45,7 @@
 </div>
 <?php endif; ?>
 
-<a href="#0" class="cd-top"><?php _e('Top', FOUNDATION_THEME_DOMAIN); ?></a>
+<a href="#0" class="cd-top"><?php _e('Top', 'foundation'); ?></a>
 
 <?php wp_footer(); ?>
 

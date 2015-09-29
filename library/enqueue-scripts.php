@@ -19,10 +19,6 @@ if ( ! function_exists( 'foundation_scripts' ) ) :
 	// Add custom fonts, used in the main stylesheet.
         wp_enqueue_style( 'foundation-fonts', foundation_fonts_url(), array(), null );
 
-	// font awesome
-	wp_register_style( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', array(),  '4.4.0', 'all' ) ;
-        wp_enqueue_style( 'font-awesome' );
-
         // Enqueue the main Stylesheet.
         wp_enqueue_style( 'main-stylesheet', get_template_directory_uri() . '/stylesheets/app.css' );
 
@@ -41,7 +37,11 @@ if ( ! function_exists( 'foundation_scripts' ) ) :
 	// foundation framework main js
         wp_register_script( 'foundation', get_template_directory_uri() . '/bower_components/foundation/js/foundation.min.js', array('jquery'), '5.5.2', true );
 
-	// TO DO
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+                wp_enqueue_script( 'comment-reply' );
+        }
+
+	// Main js
 	wp_register_script( 'foundation-app', get_template_directory_uri() . '/js/app.min.js', array('jquery'), '5.5.2', true );
 
         // Enqueue all registered scripts.
@@ -72,7 +72,7 @@ function foundation_fonts_url() {
          * Translators: If there are characters in your language that are not supported
          * by Noto Sans, translate this to 'off'. Do not translate into your own language.
          */
-        if ( 'off' !== _x( 'on', 'Noto Sans font: on or off', FOUNDATION_THEME_DOMAIN ) ) {
+        if ( 'off' !== _x( 'on', 'Noto Sans font: on or off', 'foundation' ) ) {
                 $fonts[] = 'Noto Sans:400italic,700italic,400,700';
         }
 
@@ -80,7 +80,7 @@ function foundation_fonts_url() {
          * Translators: If there are characters in your language that are not supported
          * by Noto Serif, translate this to 'off'. Do not translate into your own language.
          */
-        if ( 'off' !== _x( 'on', 'Noto Serif font: on or off', FOUNDATION_THEME_DOMAIN ) ) {
+        if ( 'off' !== _x( 'on', 'Noto Serif font: on or off', 'foundation' ) ) {
                 $fonts[] = 'Noto Serif:400italic,700italic,400,700';
         }
 
@@ -88,7 +88,7 @@ function foundation_fonts_url() {
          * Translators: If there are characters in your language that are not supported
          * by Inconsolata, translate this to 'off'. Do not translate into your own language.
          */
-        if ( 'off' !== _x( 'on', 'Inconsolata font: on or off', FOUNDATION_THEME_DOMAIN ) ) {
+        if ( 'off' !== _x( 'on', 'Inconsolata font: on or off', 'foundation' ) ) {
                 $fonts[] = 'Inconsolata:400,700';
         }
 
@@ -96,7 +96,7 @@ function foundation_fonts_url() {
          * Translators: To add an additional character subset specific to your language,
          * translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
          */
-        $subset = _x( 'no-subset', 'Add new subset (greek, cyrillic, devanagari, vietnamese)', FOUNDATION_THEME_DOMAIN );
+        $subset = _x( 'no-subset', 'Add new subset (greek, cyrillic, devanagari, vietnamese)', 'foundation' );
 
         if ( 'cyrillic' == $subset ) {
                 $subsets .= ',cyrillic,cyrillic-ext';

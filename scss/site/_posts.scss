@@ -90,9 +90,56 @@ blockquote.aligncenter, .wp-caption.aligncenter, img.aligncenter {
     margin-bottom: 1.4545em;
 }
 
+.bypostauthor > article .fn:after {
+        position: relative;
+        top: rem-calc(5);
+        left: rem-calc(3);
+}
+@media screen and (min-width: $small-breakpoint) {
+	.bypostauthor > article .fn:after {
+                top: rem-calc(7);
+                left: rem-calc(6);
+        }
+}
+@media screen and (min-width: $medium-breakpoint) {
+	.bypostauthor > article .fn:after {
+                top: rem-calc(5);
+                left: rem-calc(3);
+        }
+}
+@media screen and (min-width: $large-breakpoint) {
+	.bypostauthor > article .fn:after {
+                top: rem-calc(7);
+                left: rem-calc(6);
+        }
+}
+@media screen and (min-width: $xlarge-breakpoint) {
+	.bypostauthor > article .fn:after {
+                top: rem-calc(8);
+        }
+}
+
 [dir='rtl']{
 	.page-header{
 		border-left: none;
 		border-right: rem-calc(7) solid $oil;
+	}
+	@media screen and (min-width: $small-breakpoint) {
+ 	       .bypostauthor > article .fn:after {
+	               	right: rem-calc(6);
+	               	left: auto;
+        	}
+	}
+	@media screen and (min-width: $medium-breakpoint) {
+        	.bypostauthor > article .fn:after {
+	                right: rem-calc(3);
+	                left: auto;
+        	}
+	}
+	@media screen and (min-width: $large-breakpoint) {
+        	.bypostauthor > article .fn:after {
+	                right: rem-calc(6);
+	                left: auto;
+        	}
 	}
 }

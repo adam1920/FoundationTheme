@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Foundation Starter Theme 0.5\n"
-"POT-Creation-Date: 2015-09-29 09:11+0200\n"
-"PO-Revision-Date: 2015-09-29 09:11+0200\n"
+"POT-Creation-Date: 2015-09-29 14:10+0200\n"
+"PO-Revision-Date: 2015-09-29 14:10+0200\n"
 "Last-Translator: Adam Pery <adam@tadam.co.il>\n"
 "Language-Team: LANGUAGE <adam@tadam.co.il>\n"
 "Language: he_IL\n"
@@ -176,11 +176,11 @@ msgstr "יישומונים תחתונה"
 msgid "Drag widgets to this footer container"
 msgstr "גרור יישומונים למכל תחתונה זה"
 
-#: ../library/foundation.php:25
+#: ../library/foundation.php:29
 msgid "&laquo;"
 msgstr ""
 
-#: ../library/foundation.php:26
+#: ../library/foundation.php:30
 msgid "&raquo;"
 msgstr ""
 
@@ -223,14 +223,6 @@ msgstr "פריסת ניווט עבור מכשירים ניידים"
 #: ../library/custom-nav.php:29
 msgid "Mobile navigation position"
 msgstr "מיקום ניווט עבור מכשירים ניידים"
-
-#: ../library/custom-nav.php:38
-msgid "offcanvas"
-msgstr ""
-
-#: ../library/custom-nav.php:46
-msgid "left"
-msgstr "שמאל"
 
 #: ../library/template-tags.php:23
 msgid "Comment navigation"
@@ -287,3 +279,6 @@ msgstr "מסך מלא"
 #, php-format
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "השאירו תגובה<span class=\"screen-reader-text\"> עבור %s</span>"
+
+#~ msgid "left"
+#~ msgstr "שמאל"

@@ -20,14 +20,14 @@ function foundation_comment_nav() {
 	if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) :
 	?>
 	<nav class="navigation comment-navigation" role="navigation">
-		<h2 class="screen-reader-text"><?php _e( 'Comment navigation', FOUNDATION_THEME_DOMAIN ); ?></h2>
+		<h2 class="screen-reader-text"><?php _e( 'Comment navigation', 'foundation' ); ?></h2>
 		<div class="nav-links">
 			<?php
-				if ( $prev_link = get_previous_comments_link( __( 'Older Comments', FOUNDATION_THEME_DOMAIN ) ) ) :
+				if ( $prev_link = get_previous_comments_link( __( 'Older Comments', 'foundation' ) ) ) :
 					printf( '<div class="nav-previous">%s</div>', $prev_link );
 				endif;
 
-				if ( $next_link = get_next_comments_link( __( 'Newer Comments', FOUNDATION_THEME_DOMAIN ) ) ) :
+				if ( $next_link = get_next_comments_link( __( 'Newer Comments', 'foundation' ) ) ) :
 					printf( '<div class="nav-next">%s</div>', $next_link );
 				endif;
 			?>
@@ -46,13 +46,13 @@ if ( ! function_exists( 'foundation_entry_meta' ) ) :
  */
 function foundation_entry_meta() {
 	if ( is_sticky() && is_home() && ! is_paged() ) {
-		printf( '<span class="sticky-post">%s</span>', __( 'Featured', FOUNDATION_THEME_DOMAIN ) );
+		printf( '<span class="sticky-post">%s</span>', __( 'Featured', 'foundation' ) );
 	}
 
 	$format = get_post_format();
 	if ( current_theme_supports( 'post-formats', $format ) ) {
 		printf( '<span class="entry-format">%1$s<a href="%2$s">&nbsp;%3$s</a></span>',
-			sprintf( '<span class="screen-reader-text">%s </span>', _x( 'Format', 'Used before post format.', FOUNDATION_THEME_DOMAIN ) ),
+			sprintf( '<span class="screen-reader-text">%s </span>', _x( 'Format', 'Used before post format.', 'foundation' ) ),
 			esc_url( get_post_format_link( $format ) ),
 			get_post_format_string( $format )
 		);
@@ -73,7 +73,7 @@ function foundation_entry_meta() {
 		);
 
 		printf( '<span class="posted-on"><span class="screen-reader-text">%1$s </span><a href="%2$s" rel="bookmark">%3$s</a></span>',
-			_x( 'Posted on', 'Used before publish date.', FOUNDATION_THEME_DOMAIN ),
+			_x( 'Posted on', 'Used before publish date.', 'foundation' ),
 			esc_url( get_permalink() ),
 			$time_string
 		);
@@ -82,24 +82,24 @@ function foundation_entry_meta() {
 	if ( 'post' == get_post_type() ) {
 		if ( is_singular() || is_multi_author() ) {
 			printf( '<span class="byline"><span class="author"><span class="screen-reader-text">%1$s </span><a class="url fn n fa fa-user" href="%2$s">&nbsp;%3$s</a></span></span>',
-				_x( 'Author', 'Used before post author name.', FOUNDATION_THEME_DOMAIN ),
+				_x( 'Author', 'Used before post author name.', 'foundation' ),
 				esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
 				get_the_author()
 			);
 		}
 
-		$categories_list = get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', FOUNDATION_THEME_DOMAIN ) );
+		$categories_list = get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'foundation' ) );
 		if ( $categories_list && foundation_categorized_blog() ) {
 			printf( '<span class="cat-links fa fa-folder-open-o">&nbsp;<span class="screen-reader-text">%1$s </span>%2$s</span>',
-				_x( 'Categories', 'Used before category names.', FOUNDATION_THEME_DOMAIN ),
+				_x( 'Categories', 'Used before category names.', 'foundation' ),
 				$categories_list
 			);
 		}
 
-		$tags_list = get_the_tag_list( '', _x( ', ', 'Used between list items, there is a space after the comma.', FOUNDATION_THEME_DOMAIN ) );
+		$tags_list = get_the_tag_list( '', _x( ', ', 'Used between list items, there is a space after the comma.', 'foundation' ) );
 		if ( $tags_list ) {
 			printf( '<span class="tags-links fa fa-tags"><span class="screen-reader-text">%1$s </span>&nbsp;%2$s</span>',
-				_x( 'Tags', 'Used before tag names.', FOUNDATION_THEME_DOMAIN ),
+				_x( 'Tags', 'Used before tag names.', 'foundation' ),
 				$tags_list
 			);
 		}
@@ -110,7 +110,7 @@ function foundation_entry_meta() {
 		$metadata = wp_get_attachment_metadata();
 
 		printf( '<span class="full-size-link"><span class="screen-reader-text">%1$s </span><a href="%2$s">%3$s &times; %4$s</a></span>',
-			_x( 'Full size', 'Used before full size attachment link.', FOUNDATION_THEME_DOMAIN ),
+			_x( 'Full size', 'Used before full size attachment link.', 'foundation' ),
 			esc_url( wp_get_attachment_url() ),
 			$metadata['width'],
 			$metadata['height']
@@ -120,7 +120,7 @@ function foundation_entry_meta() {
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 		echo '<span class="comments-link fa fa-comment-o">&nbsp;';
 		/* translators: %s: post title */
-		comments_popup_link( sprintf( __( 'Leave a comment<span class="screen-reader-text"> on %s</span>', FOUNDATION_THEME_DOMAIN ), get_the_title() ) );
+		comments_popup_link( sprintf( __( 'Leave a comment<span class="screen-reader-text"> on %s</span>', 'foundation' ), get_the_title() ) );
 		echo '</span>';
 	}
 }
@@ -235,7 +235,7 @@ function foundation_excerpt_more( $more ) {
 	$link = sprintf( '<a href="%1$s" class="more-link">%2$s</a>',
 		esc_url( get_permalink( get_the_ID() ) ),
 		/* translators: %s: Name of current post */
-		sprintf( __( 'Continue reading %s', FOUNDATION_THEME_DOMAIN ), '<span class="screen-reader-text">' . get_the_title( get_the_ID() ) . '</span>' )
+		sprintf( __( 'Continue reading %s', 'foundation' ), '<span class="screen-reader-text">' . get_the_title( get_the_ID() ) . '</span>' )
 		);
 	return ' &hellip; ' . $link;
 }

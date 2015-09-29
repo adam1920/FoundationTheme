@@ -7,6 +7,10 @@
  * @since Foundation Theme 0.5.0
  */
 
+if ( ! isset( $content_width ) ) {
+        $content_width = 660;
+}
+
 // Pagination.
 if ( ! function_exists( 'foundation_pagination' ) ) :
 function foundation_pagination() {
@@ -22,8 +26,8 @@ function foundation_pagination() {
                 'total' => $wp_query->max_num_pages,
                 'mid_size' => 5,
                 'prev_next' => true,
-            	'prev_text' => __( '&laquo;', FOUNDATION_THEME_DOMAIN ),
-            	'next_text' => __( '&raquo;', FOUNDATION_THEME_DOMAIN ),
+            	'prev_text' => __( '&laquo;', 'foundation' ),
+            	'next_text' => __( '&raquo;', 'foundation' ),
                 'type' => 'list',
         ) );
 

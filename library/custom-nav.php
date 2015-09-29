@@ -13,20 +13,20 @@ function wpt_register_theme_customizer( $wp_customize ) {
 	$wp_customize->add_panel( 'mobile_menu_settings', array(
 	  'priority' => 1000,
 	  'theme_supports' => '',
-	  'title' => __( 'Mobile Menu Settings', FOUNDATION_THEME_DOMAIN ),
-	  'description' => __( 'Controls the mobile menu', FOUNDATION_THEME_DOMAIN ),
+	  'title' => __( 'Mobile Menu Settings', 'foundation' ),
+	  'description' => __( 'Controls the mobile menu', 'foundation' ),
 	) );
 
 	// Create custom field for mobile navigation layout
 	$wp_customize->add_section( 'mobile_menu_layout' , array(
-		'title'	=> __('Mobile navigation layout',FOUNDATION_THEME_DOMAIN),
+		'title'	=> __('Mobile navigation layout','foundation'),
 		'panel' => 'mobile_menu_settings',
 		'priority' => 1000,
 	));
 
 	// Create custom field for mobile navigation position
 	$wp_customize->add_section( 'mobile_menu_position' , array(
-		'title'	=> __('Mobile navigation position',FOUNDATION_THEME_DOMAIN),
+		'title'	=> __('Mobile navigation position','foundation'),
 		'panel' => 'mobile_menu_settings',
 		'priority' => 1001,
 	));
@@ -35,7 +35,9 @@ function wpt_register_theme_customizer( $wp_customize ) {
 	$wp_customize->add_setting(
 		'wpt_mobile_menu_layout',
 		array(
-			'default'	=> __( 'offcanvas', FOUNDATION_THEME_DOMAIN ),
+			'default'	=> 'offcanvas',
+			'sanitize_callback' => 'foundation_sanitize_navigation_mobile_layout',
+	                'transport'         => 'postMessage',
 		)
 	);
 
@@ -43,7 +45,9 @@ function wpt_register_theme_customizer( $wp_customize ) {
 	$wp_customize->add_setting(
 		'wpt_mobile_menu_position',
 		array(
-			'default'	=> __( 'left', FOUNDATION_THEME_DOMAIN ),
+			'default'	=> 'left',
+			'sanitize_callback' => 'foundation_sanitize_navigation_mobile_position',
+	                'transport'         => 'postMessage',
 		)
 	);
 
@@ -106,4 +110,42 @@ function mobile_nav_class( $classes ) {
 	return $classes;
 }
 endif;
-?>
+
+if ( ! function_exists( 'foundation_sanitize_navigation_mobile_layout' ) ) :
+/**
+ * Sanitization callback for mobile layout.
+ *
+ * @since Foundation Theme 0.5.0
+ *
+ * @return string Layout name
+ */
+function foundation_sanitize_navigation_mobile_layout( $value ) {
+        $choises = Array('offcanvas', 'topbar');
+
+        if ( ! array_key_exists( $value, $choises ) ) {
+                $value = 'offcanvas';
+        }
+        return $value;
+}
+endif; // foundation_sanitize_navigation_mobile_layout
+
+
+if ( ! function_exists( 'foundation_sanitize_navigation_mobile_position' ) ) :
+/**
+ * Sanitization callback for mobile position
+ *
+ * @since Foundation Theme 0.5.0
+ *
+ * @return string Position name
+ */
+function foundation_sanitize_navigation_mobile_position( $value ) {
+        $choises = Array('left', 'right');
+
+        if ( ! array_key_exists( $value, $choises ) ) {
+                $value = 'left';
+        }
+        return $value;
+}
+endif; // foundation_sanitize_navigation_mobile_position
+
+

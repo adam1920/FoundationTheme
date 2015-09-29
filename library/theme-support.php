@@ -40,6 +40,12 @@ function foundation_theme_support() {
                 'default-color'      => 'ffffff',
                 'default-attachment' => 'fixed',
         ) ) );
+
+	/*
+         * This theme styles the visual editor to resemble the theme style,
+         * specifically font, colors, icons, and column width.
+         */
+        add_editor_style( array( 'stylesheets/editor-style.css', 'genericons/genericons.css', foundation_fonts_url() ) );
 }
 
 add_action( 'after_setup_theme', 'foundation_theme_support' );

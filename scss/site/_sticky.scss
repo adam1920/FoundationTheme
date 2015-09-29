@@ -1,0 +1,12 @@
+.hentry.sticky:not(.has-post-thumbnail) {
+        padding-top: -webkit-calc(7.6923% + 24px);
+        padding-top: calc(7.6923% + 24px);
+}
+.sticky .posted-on {
+        display: none;
+}
+@media screen and (min-width: $small-breakpoint) {
+	.hentry.sticky:not(.has-post-thumbnail) {
+                padding-top: inherit;
+        }
+}

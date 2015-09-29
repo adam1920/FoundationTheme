@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Foundation Starter Theme 0.5\n"
-"POT-Creation-Date: 2015-09-29 09:04+0200\n"
-"PO-Revision-Date: 2015-09-29 09:05+0200\n"
+"POT-Creation-Date: 2015-09-29 14:14+0200\n"
+"PO-Revision-Date: 2015-09-29 14:14+0200\n"
 "Last-Translator: Adam Pery <adam@tadam.co.il>\n"
 "Language-Team: LANGUAGE <adam@tadam.co.il>\n"
 "Language: ml_IN\n"
@@ -175,11 +175,11 @@ msgstr ""
 msgid "Drag widgets to this footer container"
 msgstr ""
 
-#: ../library/foundation.php:25
+#: ../library/foundation.php:29
 msgid "&laquo;"
 msgstr ""
 
-#: ../library/foundation.php:26
+#: ../library/foundation.php:30
 msgid "&raquo;"
 msgstr ""
 
@@ -221,14 +221,6 @@ msgstr ""
 
 #: ../library/custom-nav.php:29
 msgid "Mobile navigation position"
-msgstr ""
-
-#: ../library/custom-nav.php:38
-msgid "offcanvas"
-msgstr ""
-
-#: ../library/custom-nav.php:46
-msgid "left"
 msgstr ""
 
 #: ../library/template-tags.php:23

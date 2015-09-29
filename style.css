@@ -2,12 +2,12 @@
  * Theme Name:         	Foundation Theme
  * Theme URI:          	http://foundationtheme.tadam.co.il/
  * Author:             	Adam Pery
- * Author URI:         	http://foundationtheme.tadam.co.il/
+ * Author URI:         	https://profiles.wordpress.org/adam1920
  * Description:        	The primary WordPress starter-theme built on Foundation 5 by Zurb using CSS Compass Framework
  * Version:            	0.5.0
  * License: 		GNU General Public License v2 or later
  * License URI: 	http://www.gnu.org/licenses/gpl-2.0.html
- * Tags:		Foundation, one-column, two-columns, left-sidebar, right-sidebar, featured-image, hero, full-width, flexible-width, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, microformats, post-formats, rtl-language-support, threaded-comments, translation-ready, scss, sass, compass, sticky-footer, semantic, mobile first, customizable, fully responsive
+ * Tags:		one-column, two-columns, left-sidebar, right-sidebar, fluid-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, microformats, post-formats, rtl-language-support, threaded-comments, translation-ready, responsive-layout
  * Text Domain: 	foundation
  * */
 
@@ -30,5 +30,4 @@
  * if you for some reason would like to write plain css instead of using Sass,
  * you could just enqueue this file (style.css) to the header and add your styles in this file
 ------------------------------------------------------------------------------ */
-
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Foundation Starter Theme 0.5\n"
-"POT-Creation-Date: 2015-09-27 10:54+0200\n"
-"PO-Revision-Date: 2015-09-27 10:54+0200\n"
+"POT-Creation-Date: 2015-09-29 14:14+0200\n"
+"PO-Revision-Date: 2015-09-29 14:14+0200\n"
 "Last-Translator: Adam Pery <adam@tadam.co.il>\n"
 "Language-Team: LANGUAGE <adam@tadam.co.il>\n"
 "Language: en\n"
@@ -145,7 +145,12 @@ msgid "Search Results for: %s"
 msgstr ""
 
 #: ../footer.php:36
-msgid "Proudly powered by"
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: ../footer.php:36
+#, php-format
+msgid "Proudly powered by %s"
 msgstr ""
 
 #: ../footer.php:48
@@ -168,30 +173,30 @@ msgstr ""
 msgid "Drag widgets to this footer container"
 msgstr ""
 
-#: ../library/foundation.php:25
+#: ../library/foundation.php:29
 msgid "&laquo;"
 msgstr ""
 
-#: ../library/foundation.php:26
+#: ../library/foundation.php:30
 msgid "&raquo;"
 msgstr ""
 
-#: ../library/enqueue-scripts.php:63
+#: ../library/enqueue-scripts.php:75
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr ""
 
-#: ../library/enqueue-scripts.php:71
+#: ../library/enqueue-scripts.php:83
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr ""
 
-#: ../library/enqueue-scripts.php:79
+#: ../library/enqueue-scripts.php:91
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr ""
 
-#: ../library/enqueue-scripts.php:87
+#: ../library/enqueue-scripts.php:99
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr ""
@@ -214,14 +219,6 @@ msgstr ""
 
 #: ../library/custom-nav.php:29
 msgid "Mobile navigation position"
-msgstr ""
-
-#: ../library/custom-nav.php:38
-msgid "offcanvas"
-msgstr ""
-
-#: ../library/custom-nav.php:46
-msgid "left"
 msgstr ""
 
 #: ../library/template-tags.php:23

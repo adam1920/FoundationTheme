@@ -25,9 +25,6 @@
  * @since Foundation Theme 0.5.0
 */
 
-//define
-define('FOUNDATION_THEME_DOMAIN', 'foundation');
-
 /** Required for Foundation to work properly */
 require_once(get_template_directory().'/library/foundation.php' );
 
