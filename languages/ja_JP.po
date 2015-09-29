@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Foundation Starter Theme 0.5\n"
-"POT-Creation-Date: 2015-09-27 10:54+0200\n"
-"PO-Revision-Date: 2015-09-29 07:24+0200\n"
+"POT-Creation-Date: 2015-09-29 07:27+0200\n"
+"PO-Revision-Date: 2015-09-29 07:28+0200\n"
 "Last-Translator: Adam Pery <adam@tadam.co.il>\n"
 "Language-Team: LANGUAGE <adam@tadam.co.il>\n"
-"Language: ru_RU\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,115 +13,111 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
 "_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
 "esc_html_x:1,2c\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../searchform.php:13 ../searchform.php:16
 msgid "Search"
-msgstr "Поиск"
+msgstr "検索"
 
 #: ../404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Ой! Страница не найдена."
+msgstr "﻿ページが見つかりません。"
 
 #: ../404.php:24
 msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr ""
-"По данному адресу ничего не найдено. Попробуйте воспользоваться поиском."
+msgstr "こちらには何もありません。検索をお試しください。"
 
 #: ../content-search.php:28 ../content-search.php:33 ../content-link.php:56
 #: ../content.php:56 ../content-featured-image.php:31 ../content-quote.php:59
 #: ../content-page.php:35 ../image.php:71
 msgid "Edit"
-msgstr "Изменить"
+msgstr "編集"
 
 #: ../content-none.php:15
 msgid "Nothing Found"
-msgstr "Не найдено"
+msgstr "見つかりません"
 
 #: ../content-none.php:22
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
-"Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+"最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>し"
+"てください。"
 
 #: ../content-none.php:26
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
-"Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые "
-"слова."
+"ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検"
+"索してみてください。"
 
 #: ../content-none.php:31
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
-msgstr ""
-"Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по "
-"сайту."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
 
 #: ../author-bio.php:12
 msgid "Published by"
-msgstr "Автор"
+msgstr "投稿者:"
 
 #: ../author-bio.php:34
 #, php-format
 msgid "View all posts by %s"
-msgstr "Посмотреть все записи автора %s"
+msgstr "%s の投稿をすべて表示"
 
 #: ../archive.php:53 ../index.php:50 ../search.php:42
 msgid "Previous page"
-msgstr "Предыдущая страница"
+msgstr "前のページ"
 
 #: ../archive.php:54 ../index.php:51 ../search.php:43
 msgid "Next page"
-msgstr "Следующая страница"
+msgstr "次のページ"
 
 #: ../archive.php:55 ../index.php:52 ../content-link.php:40 ../content.php:41
 #: ../content-featured-image.php:25 ../content-quote.php:44
 #: ../content-page.php:29 ../image.php:63 ../search.php:44
 msgid "Page"
-msgstr "Страница"
+msgstr "ページ"
 
 #: ../content-link.php:31 ../content.php:32 ../content-quote.php:33
 #: ../library/template-tags.php:238
 #, php-format
 msgid "Continue reading %s"
-msgstr "Читать далее %s"
+msgstr "続きを読む %s"
 
 #: ../content-link.php:36 ../content.php:37 ../content-featured-image.php:21
 #: ../content-quote.php:40 ../content-page.php:25 ../image.php:59
 #: ../templates/hero.php:37
 msgid "Pages:"
-msgstr "Страницы:"
+msgstr "ページ:"
 
-#: comments.php:28
+#: ../comments.php:29
+#, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%2$s: %1$s комментарий"
-msgstr[1] "%2$s: %1$s комментария"
-msgstr[2] "%2$s: %1$s комментариев"
+msgstr[0] "&ldquo;%2$s&rdquo; への%1$s件のフィードバック"
 
 #: ../comments.php:54
 msgid "Comments are closed."
-msgstr "Комментарии запрещены."
+msgstr "コメントは受け付けていません。"
 
 #: ../header.php:29
 msgid "Skip to content"
-msgstr "Перейти к содержимому"
+msgstr "コンテンツへ移動"
 
 #: ../image.php:24
 msgid "Previous Image"
-msgstr "Предыдущее изображение"
+msgstr "前の画像"
 
 #: ../image.php:24
 msgid "Next Image"
-msgstr "Следующее изображение"
+msgstr "次の画像"
 
 #: ../image.php:84
 msgctxt "Parent post link"
@@ -129,53 +125,53 @@ msgid ""
 "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
 "%title</span>"
 msgstr ""
-"<span class=\"meta-nav\">Опубликовано в</span><span class=\"post-title\">"
-"%title</span>"
+"<span class=\"post-title\">%title</span> <span class=\"meta-nav\">内で公開</"
+"span>"
 
 #: ../single.php:33
 msgid "Next"
-msgstr "Далее"
+msgstr "次"
 
 #: ../single.php:34
 msgid "Next post:"
-msgstr "Следующая запись:"
+msgstr "次の投稿:"
 
 #: ../single.php:36
 msgid "Previous"
-msgstr "Назад"
+msgstr "前"
 
 #: ../single.php:37
 msgid "Previous post:"
-msgstr "Предыдущая запись:"
+msgstr "前の投稿:"
 
 #: ../search.php:19
 #, php-format
 msgid "Search Results for: %s"
-msgstr "Результаты поиска: %s"
+msgstr "検索結果: %s"
 
 #: ../footer.php:36
 msgid "Proudly powered by"
-msgstr "Сайт работает на"
+msgstr ""
 
 #: ../footer.php:48
 msgid "Top"
-msgstr "Наверх"
+msgstr ""
 
 #: ../library/widget-areas.php:14
 msgid "Sidebar widgets"
-msgstr "Виджеты боковой панели"
+msgstr ""
 
 #: ../library/widget-areas.php:15
 msgid "Drag widgets to this sidebar container."
-msgstr "Перетащите виджеты в этот боковой контейнер."
+msgstr ""
 
 #: ../library/widget-areas.php:24
 msgid "Footer widgets"
-msgstr "Виджеты подвала"
+msgstr ""
 
 #: ../library/widget-areas.php:25
 msgid "Drag widgets to this footer container"
-msgstr "Перетащите виджеты в этот подвал."
+msgstr ""
 
 #: ../library/foundation.php:25
 msgid "&laquo;"
@@ -188,42 +184,42 @@ msgstr ""
 #: ../library/enqueue-scripts.php:63
 msgctxt "Noto Sans font: on or off"
 msgid "on"
-msgstr ""
+msgstr "on"
 
 #: ../library/enqueue-scripts.php:71
 msgctxt "Noto Serif font: on or off"
 msgid "on"
-msgstr ""
+msgstr "on"
 
 #: ../library/enqueue-scripts.php:79
 msgctxt "Inconsolata font: on or off"
 msgid "on"
-msgstr ""
+msgstr "on"
 
 #: ../library/enqueue-scripts.php:87
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
-msgstr ""
+msgstr "no-subset"
 
 #: ../library/offcanvas-walker.php:46
 msgid "Back"
-msgstr "Назад"
+msgstr "バック"
 
 #: ../library/custom-nav.php:16
 msgid "Mobile Menu Settings"
-msgstr "Настройки меню мобильных аппаратов"
+msgstr ""
 
 #: ../library/custom-nav.php:17
 msgid "Controls the mobile menu"
-msgstr "Управление меню мобильных аппаратов"
+msgstr ""
 
 #: ../library/custom-nav.php:22
 msgid "Mobile navigation layout"
-msgstr "Макет навигации мобильных аппаратов"
+msgstr ""
 
 #: ../library/custom-nav.php:29
 msgid "Mobile navigation position"
-msgstr "Позиционная навигация мобильных аппаратов"
+msgstr ""
 
 #: ../library/custom-nav.php:38
 msgid "offcanvas"
@@ -231,61 +227,144 @@ msgstr ""
 
 #: ../library/custom-nav.php:46
 msgid "left"
-msgstr "слева"
+msgstr ""
 
 #: ../library/template-tags.php:23
 msgid "Comment navigation"
-msgstr "Навигация по комментариям "
+msgstr "コメントナビゲーション"
 
 #: ../library/template-tags.php:26
 msgid "Older Comments"
-msgstr "Предыдущие комментарии"
+msgstr "過去のコメント"
 
 #: ../library/template-tags.php:30
 msgid "Newer Comments"
-msgstr "Следующие комментарии"
+msgstr "新しいコメント"
 
 #: ../library/template-tags.php:49
 msgid "Featured"
-msgstr "Избранное"
+msgstr "注目"
 
 #: ../library/template-tags.php:55
 msgctxt "Used before post format."
 msgid "Format"
-msgstr "Формат"
+msgstr "フォーマット"
 
 #: ../library/template-tags.php:76
 msgctxt "Used before publish date."
 msgid "Posted on"
-msgstr "Автор"
+msgstr "投稿日:"
 
 #: ../library/template-tags.php:85
 msgctxt "Used before post author name."
 msgid "Author"
-msgstr "Автор"
+msgstr "作成者"
 
 #: ../library/template-tags.php:91 ../library/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: ../library/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
-msgstr "Рубрики"
+msgstr "カテゴリー"
 
 #: ../library/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
-msgstr "Метки"
+msgstr "タグ"
 
 #: ../library/template-tags.php:113
 msgctxt "Used before full size attachment link."
 msgid "Full size"
-msgstr "Полный размер"
+msgstr "フルサイズ"
 
 #: ../library/template-tags.php:123
 #, php-format
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
-"Добавить комментарий<span class=\"screen-reader-text\"> к записи %s</span>"
+msgstr "<span class=\"screen-reader-text\">%sに</span>コメント"
+
+#~ msgid "https://wordpress.org/themes/twentyfifteen/"
+#~ msgstr "https://ja.wordpress.org/themes/twentyfifteen/"
+
+#~ msgid ""
+#~ "Applied to the header on small screens and the sidebar on wide screens."
+#~ msgstr "﻿小さい画面上のヘッダーと、幅広い画面上のサイドバーに適用されます。"
+
+#~ msgid "the WordPress team"
+#~ msgstr "WordPress チーム"
+
+#~ msgid ""
+#~ "Our 2015 default theme is clean, blog-focused, and designed for clarity. "
+#~ "Twenty Fifteen's simple, straightforward typography is readable on a wide "
+#~ "variety of screen sizes, and suitable for multiple languages. We designed "
+#~ "it using a mobile-first approach, meaning your content takes center-"
+#~ "stage, regardless of whether your visitors arrive by smartphone, tablet, "
+#~ "laptop, or desktop computer."
+#~ msgstr ""
+#~ "2015年のデフォルトテーマはクリーンでブログ向けに、分かりやすさを考えて設計"
+#~ "されています。Twenty Fifteen の単純明快なタイポグラフィは多様な画面サイズ"
+#~ "で読みやすく、複数の言語に適しています。このテーマは「モバイル・ファース"
+#~ "ト」アプローチを使ってデザインしました。つまり、サイトの訪問者がスマート"
+#~ "フォン・タブレット・ノートまたはデスクトップパソコンのどれを使ってサイトに"
+#~ "訪れていても、あなたのコンテンツに最も注目が注がれるようになっているという"
+#~ "意味です。"
+
+#~ msgid "Twenty Fifteen"
+#~ msgstr "Twenty Fifteen"
+
+#~ msgid "Blue"
+#~ msgstr "ブルー"
+
+#~ msgid "Purple"
+#~ msgstr "紫"
+
+#~ msgid "Pink"
+#~ msgstr "ピンク"
+
+#~ msgid "Dark"
+#~ msgstr "ダーク"
+
+#~ msgid "Yellow"
+#~ msgstr "黄"
+
+#~ msgid "Default"
+#~ msgstr "デフォルト"
+
+#~ msgid "Header and Sidebar Background Color"
+#~ msgstr "ヘッダー・サイドバー背景色"
+
+#~ msgid "Base Color Scheme"
+#~ msgstr "ベース配色"
+
+#~ msgid "Header and Sidebar Text Color"
+#~ msgstr "ヘッダー・サイドバーテキスト色"
+
+#~ msgid ""
+#~ "Twenty Fifteen requires at least WordPress version 4.1. You are running "
+#~ "version %s. Please upgrade and try again."
+#~ msgstr ""
+#~ "Twenty Fifteen には WordPress バージョン 4.1 以上が必要です。現在のバー"
+#~ "ジョンは %s です。アップグレードしてもう一度お試しください。"
+
+#~ msgid "expand child menu"
+#~ msgstr "サブメニューを展開"
+
+#~ msgid "collapse child menu"
+#~ msgstr "サブメニューを閉じる"
+
+#~ msgid "Add widgets here to appear in your sidebar."
+#~ msgstr "サイドバーに表示させるにはここにウィジェットを追加してください。"
+
+#~ msgid "Widget Area"
+#~ msgstr "﻿ウィジェット エリア"
+
+#~ msgid "Primary Menu"
+#~ msgstr "メインメニュー"
+
+#~ msgid "Social Links Menu"
+#~ msgstr "﻿ソーシャルリンクメニュー"
+
+#~ msgid "https://wordpress.org/"
+#~ msgstr "https://ja.wordpress.org/"

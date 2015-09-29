@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Foundation Starter Theme 0.5\n"
-"POT-Creation-Date: 2015-09-27 10:54+0200\n"
-"PO-Revision-Date: 2015-09-29 07:24+0200\n"
+"POT-Creation-Date: 2015-09-29 07:06+0200\n"
+"PO-Revision-Date: 2015-09-29 07:16+0200\n"
 "Last-Translator: Adam Pery <adam@tadam.co.il>\n"
 "Language-Team: LANGUAGE <adam@tadam.co.il>\n"
-"Language: ru_RU\n"
+"Language: lv_LV\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,115 +13,114 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
 "_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
 "esc_html_x:1,2c\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../searchform.php:13 ../searchform.php:16
 msgid "Search"
-msgstr "Поиск"
+msgstr "Meklēt"
 
 #: ../404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Ой! Страница не найдена."
+msgstr "Opā! Tāda lapa nav atrodama."
 
 #: ../404.php:24
 msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr ""
-"По данному адресу ничего не найдено. Попробуйте воспользоваться поиском."
+msgstr "Izskatās, ka šeit nekas netika atrasts. Varbūt izmantojiet meklēšanu?"
 
 #: ../content-search.php:28 ../content-search.php:33 ../content-link.php:56
 #: ../content.php:56 ../content-featured-image.php:31 ../content-quote.php:59
 #: ../content-page.php:35 ../image.php:71
 msgid "Edit"
-msgstr "Изменить"
+msgstr "Labot"
 
 #: ../content-none.php:15
 msgid "Nothing Found"
-msgstr "Не найдено"
+msgstr "Nekas nav atrasts"
 
 #: ../content-none.php:22
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
-"Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+"Esat gatavi publicēt savu pirmo rakstu? <a href=\"%1$s\">Sāciet te</a>."
 
 #: ../content-none.php:26
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
-"Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые "
-"слова."
+"Diemžēl, bet nekas netika atrasts. Mēģiniet vēlreiz izmantojot citus "
+"atslēgvārdus."
 
 #: ../content-none.php:31
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
-"Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по "
-"сайту."
+"Izskatās, ka mēs nevaram atrast to ko meklējat. Iespējams meklēšana var "
+"palīdzēt."
 
 #: ../author-bio.php:12
 msgid "Published by"
-msgstr "Автор"
+msgstr "Publicējis"
 
 #: ../author-bio.php:34
 #, php-format
 msgid "View all posts by %s"
-msgstr "Посмотреть все записи автора %s"
+msgstr "Skatīt visus %s rakstus"
 
 #: ../archive.php:53 ../index.php:50 ../search.php:42
 msgid "Previous page"
-msgstr "Предыдущая страница"
+msgstr "Iepriekšējā lapa"
 
 #: ../archive.php:54 ../index.php:51 ../search.php:43
 msgid "Next page"
-msgstr "Следующая страница"
+msgstr "Nākamā lapa"
 
 #: ../archive.php:55 ../index.php:52 ../content-link.php:40 ../content.php:41
 #: ../content-featured-image.php:25 ../content-quote.php:44
 #: ../content-page.php:29 ../image.php:63 ../search.php:44
 msgid "Page"
-msgstr "Страница"
+msgstr "Lapa"
 
 #: ../content-link.php:31 ../content.php:32 ../content-quote.php:33
 #: ../library/template-tags.php:238
 #, php-format
 msgid "Continue reading %s"
-msgstr "Читать далее %s"
+msgstr "Turpināt %s lasīšanu"
 
 #: ../content-link.php:36 ../content.php:37 ../content-featured-image.php:21
 #: ../content-quote.php:40 ../content-page.php:25 ../image.php:59
 #: ../templates/hero.php:37
 msgid "Pages:"
-msgstr "Страницы:"
+msgstr "Lapas:"
 
-#: comments.php:28
+#: ../comments.php:29
+#, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%2$s: %1$s комментарий"
-msgstr[1] "%2$s: %1$s комментария"
-msgstr[2] "%2$s: %1$s комментариев"
+msgstr[0] "%1$s doma par &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s domas par &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s domu par &ldquo;%2$s&rdquo;"
 
 #: ../comments.php:54
 msgid "Comments are closed."
-msgstr "Комментарии запрещены."
+msgstr "Komentāri ir slēgti."
 
 #: ../header.php:29
 msgid "Skip to content"
-msgstr "Перейти к содержимому"
+msgstr "Doties uz saturu"
 
 #: ../image.php:24
 msgid "Previous Image"
-msgstr "Предыдущее изображение"
+msgstr "Iepriekšējais attēls"
 
 #: ../image.php:24
 msgid "Next Image"
-msgstr "Следующее изображение"
+msgstr "Nākamais attēls"
 
 #: ../image.php:84
 msgctxt "Parent post link"
@@ -129,53 +128,53 @@ msgid ""
 "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
 "%title</span>"
 msgstr ""
-"<span class=\"meta-nav\">Опубликовано в</span><span class=\"post-title\">"
-"%title</span>"
+"<span class=\"meta-nav\">Publicēts</span><span class=\"post-title\">%title</"
+"span>"
 
 #: ../single.php:33
 msgid "Next"
-msgstr "Далее"
+msgstr "Nākamais"
 
 #: ../single.php:34
 msgid "Next post:"
-msgstr "Следующая запись:"
+msgstr "Nākamais raksts:"
 
 #: ../single.php:36
 msgid "Previous"
-msgstr "Назад"
+msgstr "Iepriekšējais"
 
 #: ../single.php:37
 msgid "Previous post:"
-msgstr "Предыдущая запись:"
+msgstr "Iepriekšējais raksts:"
 
 #: ../search.php:19
 #, php-format
 msgid "Search Results for: %s"
-msgstr "Результаты поиска: %s"
+msgstr "Meklēšanas rezultāti: %s"
 
 #: ../footer.php:36
 msgid "Proudly powered by"
-msgstr "Сайт работает на"
+msgstr "Lepni darbina"
 
 #: ../footer.php:48
 msgid "Top"
-msgstr "Наверх"
+msgstr ""
 
 #: ../library/widget-areas.php:14
 msgid "Sidebar widgets"
-msgstr "Виджеты боковой панели"
+msgstr ""
 
 #: ../library/widget-areas.php:15
 msgid "Drag widgets to this sidebar container."
-msgstr "Перетащите виджеты в этот боковой контейнер."
+msgstr ""
 
 #: ../library/widget-areas.php:24
 msgid "Footer widgets"
-msgstr "Виджеты подвала"
+msgstr ""
 
 #: ../library/widget-areas.php:25
 msgid "Drag widgets to this footer container"
-msgstr "Перетащите виджеты в этот подвал."
+msgstr ""
 
 #: ../library/foundation.php:25
 msgid "&laquo;"
@@ -188,42 +187,42 @@ msgstr ""
 #: ../library/enqueue-scripts.php:63
 msgctxt "Noto Sans font: on or off"
 msgid "on"
-msgstr ""
+msgstr "on"
 
 #: ../library/enqueue-scripts.php:71
 msgctxt "Noto Serif font: on or off"
 msgid "on"
-msgstr ""
+msgstr "on"
 
 #: ../library/enqueue-scripts.php:79
 msgctxt "Inconsolata font: on or off"
 msgid "on"
-msgstr ""
+msgstr "on"
 
 #: ../library/enqueue-scripts.php:87
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
-msgstr ""
+msgstr "no-subset"
 
 #: ../library/offcanvas-walker.php:46
 msgid "Back"
-msgstr "Назад"
+msgstr "Atpakaļ"
 
 #: ../library/custom-nav.php:16
 msgid "Mobile Menu Settings"
-msgstr "Настройки меню мобильных аппаратов"
+msgstr ""
 
 #: ../library/custom-nav.php:17
 msgid "Controls the mobile menu"
-msgstr "Управление меню мобильных аппаратов"
+msgstr ""
 
 #: ../library/custom-nav.php:22
 msgid "Mobile navigation layout"
-msgstr "Макет навигации мобильных аппаратов"
+msgstr ""
 
 #: ../library/custom-nav.php:29
 msgid "Mobile navigation position"
-msgstr "Позиционная навигация мобильных аппаратов"
+msgstr ""
 
 #: ../library/custom-nav.php:38
 msgid "offcanvas"
@@ -231,61 +230,145 @@ msgstr ""
 
 #: ../library/custom-nav.php:46
 msgid "left"
-msgstr "слева"
+msgstr ""
 
 #: ../library/template-tags.php:23
 msgid "Comment navigation"
-msgstr "Навигация по комментариям "
+msgstr "Komentāru navigācija"
 
 #: ../library/template-tags.php:26
 msgid "Older Comments"
-msgstr "Предыдущие комментарии"
+msgstr "Senāki komentāri"
 
 #: ../library/template-tags.php:30
 msgid "Newer Comments"
-msgstr "Следующие комментарии"
+msgstr "Jaunāki komentāri"
 
 #: ../library/template-tags.php:49
 msgid "Featured"
-msgstr "Избранное"
+msgstr "Izceltais"
 
 #: ../library/template-tags.php:55
 msgctxt "Used before post format."
 msgid "Format"
-msgstr "Формат"
+msgstr "Formāts"
 
 #: ../library/template-tags.php:76
 msgctxt "Used before publish date."
 msgid "Posted on"
-msgstr "Автор"
+msgstr "Publicēts"
 
 #: ../library/template-tags.php:85
 msgctxt "Used before post author name."
 msgid "Author"
-msgstr "Автор"
+msgstr "Autors"
 
 #: ../library/template-tags.php:91 ../library/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: ../library/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
-msgstr "Рубрики"
+msgstr "Kategorijas"
 
 #: ../library/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
-msgstr "Метки"
+msgstr "Birkas"
 
 #: ../library/template-tags.php:113
 msgctxt "Used before full size attachment link."
 msgid "Full size"
-msgstr "Полный размер"
+msgstr "Pilnais izmērs"
 
 #: ../library/template-tags.php:123
 #, php-format
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
-"Добавить комментарий<span class=\"screen-reader-text\"> к записи %s</span>"
+"Atstājiet savu komentāru<span class=\"screen-reader-text\"> par %s</span>"
+
+#~ msgid "https://wordpress.org/themes/twentyfifteen/"
+#~ msgstr "https://wordpress.org/themes/twentyfifteen/"
+
+#~ msgid ""
+#~ "Applied to the header on small screens and the sidebar on wide screens."
+#~ msgstr ""
+#~ "Piemēro galvenēm uz mazajiem ekrāniem un sānu joslām uz platiem ekrāniem."
+
+#~ msgid "the WordPress team"
+#~ msgstr "WordPress komanda"
+
+#~ msgid ""
+#~ "Our 2015 default theme is clean, blog-focused, and designed for clarity. "
+#~ "Twenty Fifteen's simple, straightforward typography is readable on a wide "
+#~ "variety of screen sizes, and suitable for multiple languages. We designed "
+#~ "it using a mobile-first approach, meaning your content takes center-"
+#~ "stage, regardless of whether your visitors arrive by smartphone, tablet, "
+#~ "laptop, or desktop computer."
+#~ msgstr ""
+#~ "Mūsu 2015. gada noklusējuma tēma ir tīra,  ar akcentu uz skaidrību, "
+#~ "domāta blogam. Twenty Fifteen vienkāršais, saprotamais salikums ir lasāms "
+#~ "uz dažādiem ekrāna izmēriem, un piemērots izmantošanai vairākās valodās. "
+#~ "To veidojot mēs vispirms domājām par mobilo izmantojumu, proti, saturs "
+#~ "atradīsies lapas centrā, neatkarīgi no tā, vai jūsu apmeklētāji izmantos "
+#~ "viedtālruni, planšetdatoru, klēpjdatoru vai galda datoru."
+
+#~ msgid "Twenty Fifteen"
+#~ msgstr "Twenty Fifteen"
+
+#~ msgid "Blue"
+#~ msgstr "Zils"
+
+#~ msgid "Purple"
+#~ msgstr "Purpurs"
+
+#~ msgid "Pink"
+#~ msgstr "Rozā"
+
+#~ msgid "Dark"
+#~ msgstr "Tumšs"
+
+#~ msgid "Yellow"
+#~ msgstr "Dzeltens"
+
+#~ msgid "Default"
+#~ msgstr "Noklusējuma"
+
+#~ msgid "Header and Sidebar Background Color"
+#~ msgstr "Galvenes un sānjoslu fona krāsa"
+
+#~ msgid "Base Color Scheme"
+#~ msgstr "Pamata krāsu shēma"
+
+#~ msgid "Header and Sidebar Text Color"
+#~ msgstr "Virsraksta un sānjoslu teksta krāsu"
+
+#~ msgid ""
+#~ "Twenty Fifteen requires at least WordPress version 4.1. You are running "
+#~ "version %s. Please upgrade and try again."
+#~ msgstr ""
+#~ "Twenty Fifteen nepieciešama vismaz WordPress versija 4.1. Jūs izmantojat "
+#~ "versiju %s. Lūdzu, atjauniniet to un mēģiniet vēlreiz."
+
+#~ msgid "expand child menu"
+#~ msgstr "izvērst apakšizvēlni"
+
+#~ msgid "collapse child menu"
+#~ msgstr "sakļaut apakšizvēlni"
+
+#~ msgid "Add widgets here to appear in your sidebar."
+#~ msgstr "Pievienot logrīkus šeit, lai tie parādītos sānjoslās."
+
+#~ msgid "Widget Area"
+#~ msgstr "Logrīku apgabals"
+
+#~ msgid "Primary Menu"
+#~ msgstr "Galvenā izvēlne"
+
+#~ msgid "Social Links Menu"
+#~ msgstr "Sociālo saišu izvēlne"
+
+#~ msgid "https://wordpress.org/"
+#~ msgstr "https://wordpress.org/"

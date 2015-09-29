@@ -1,0 +1,363 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Foundation Starter Theme 0.5\n"
+"POT-Creation-Date: 2015-09-29 07:31+0200\n"
+"PO-Revision-Date: 2015-09-29 07:33+0200\n"
+"Last-Translator: Adam Pery <adam@tadam.co.il>\n"
+"Language-Team: LANGUAGE <adam@tadam.co.il>\n"
+"Language: ml_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../searchform.php:13 ../searchform.php:16
+msgid "Search"
+msgstr "തിരച്ചിൽ"
+
+#: ../404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "ഈ തലക്കെട്ടിൽ ഒരു ലേഖനം ഇല്ല."
+
+#: ../404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "ക്ഷമിക്കണം, വീണ്ടും തിരയുക"
+
+#: ../content-search.php:28 ../content-search.php:33 ../content-link.php:56
+#: ../content.php:56 ../content-featured-image.php:31 ../content-quote.php:59
+#: ../content-page.php:35 ../image.php:71
+msgid "Edit"
+msgstr "മാറ്റം വരുത്തുക "
+
+#: ../content-none.php:15
+msgid "Nothing Found"
+msgstr "ഒന്നും കണ്ടില്ല "
+
+#: ../content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "ആദ്യത്തെ പോസ്റ്റ് പ്രസിദ്ധികരിക്കാനായോ ?  <a href=\"%1$s\">വേഗം ശ്രമിക്കൂ</a>."
+
+#: ../content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "ക്ഷമിക്കണം, പുതിയ വാക്കുകള്‍ ഉപയോഗിച്ച് വീണ്ടും തിരയുക"
+
+#: ../content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "ദയവായി വീണ്ടും തിരയുക"
+
+#: ../author-bio.php:12
+msgid "Published by"
+msgstr "പ്രസാധകന്‍"
+
+#: ../author-bio.php:34
+#, php-format
+msgid "View all posts by %s"
+msgstr "മുഴുവന്‍ പോസ്റ്റുകള്‍ക്കായി %s"
+
+#: ../archive.php:53 ../index.php:50 ../search.php:42
+msgid "Previous page"
+msgstr "മുൻപത്തെ താൾ"
+
+#: ../archive.php:54 ../index.php:51 ../search.php:43
+msgid "Next page"
+msgstr "അടുത്ത താൾ"
+
+#: ../archive.php:55 ../index.php:52 ../content-link.php:40 ../content.php:41
+#: ../content-featured-image.php:25 ../content-quote.php:44
+#: ../content-page.php:29 ../image.php:63 ../search.php:44
+msgid "Page"
+msgstr "താൾ"
+
+#: ../content-link.php:31 ../content.php:32 ../content-quote.php:33
+#: ../library/template-tags.php:238
+#, php-format
+msgid "Continue reading %s"
+msgstr "പൂർണമായി വായികുക  %s"
+
+#: ../content-link.php:36 ../content.php:37 ../content-featured-image.php:21
+#: ../content-quote.php:40 ../content-page.php:25 ../image.php:59
+#: ../templates/hero.php:37
+msgid "Pages:"
+msgstr "താളുകൾ:"
+
+#: ../comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "ഒരു നിരൂപണം &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s നിരൂപണള്‍ &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:54
+msgid "Comments are closed."
+msgstr "അഭിപ്രായം രേഖപ്പെടുത്തൽ നിർത്തൽ ആകിയിരികുന്നു."
+
+#: ../header.php:29
+msgid "Skip to content"
+msgstr "ഉള്ളടക്കത്തിലേക്ക് നീങ്ങുക"
+
+#: ../image.php:24
+msgid "Previous Image"
+msgstr "മുൻപത്തെ ചിത്രം"
+
+#: ../image.php:24
+msgid "Next Image"
+msgstr "അടുത്ത ചിത്രം"
+
+#: ../image.php:84
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+"<span class=\"meta-nav\">പ്രസിദ്ധീകരിച്ചു</span><span class=\"post-title\">"
+"%title</span>"
+
+#: ../single.php:33
+msgid "Next"
+msgstr "അടുത്തത്"
+
+#: ../single.php:34
+msgid "Next post:"
+msgstr "അടുത്ത പോസ്റ്റ്"
+
+#: ../single.php:36
+msgid "Previous"
+msgstr "മുന്‍പത്തെത്"
+
+#: ../single.php:37
+msgid "Previous post:"
+msgstr "മുൻപത്തെ പോസ്റ്റ്‌:"
+
+#: ../search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "വിവരങ്ങള്‍: %s"
+
+#: ../footer.php:36
+msgid "Proudly powered by"
+msgstr "അഭിമാനത്തൊടെ"
+
+#: ../footer.php:48
+msgid "Top"
+msgstr ""
+
+#: ../library/widget-areas.php:14
+msgid "Sidebar widgets"
+msgstr ""
+
+#: ../library/widget-areas.php:15
+msgid "Drag widgets to this sidebar container."
+msgstr ""
+
+#: ../library/widget-areas.php:24
+msgid "Footer widgets"
+msgstr ""
+
+#: ../library/widget-areas.php:25
+msgid "Drag widgets to this footer container"
+msgstr ""
+
+#: ../library/foundation.php:25
+msgid "&laquo;"
+msgstr ""
+
+#: ../library/foundation.php:26
+msgid "&raquo;"
+msgstr ""
+
+#: ../library/enqueue-scripts.php:63
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "മുമ്പോട്ട്‌"
+
+#: ../library/enqueue-scripts.php:71
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "മുമ്പോട്ട്‌"
+
+#: ../library/enqueue-scripts.php:79
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "മുമ്പോട്ട്‌"
+
+#: ../library/enqueue-scripts.php:87
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "ഉപഗണങ്ങളില്ല"
+
+#: ../library/offcanvas-walker.php:46
+msgid "Back"
+msgstr "തിരിച്ച്"
+
+#: ../library/custom-nav.php:16
+msgid "Mobile Menu Settings"
+msgstr ""
+
+#: ../library/custom-nav.php:17
+msgid "Controls the mobile menu"
+msgstr ""
+
+#: ../library/custom-nav.php:22
+msgid "Mobile navigation layout"
+msgstr ""
+
+#: ../library/custom-nav.php:29
+msgid "Mobile navigation position"
+msgstr ""
+
+#: ../library/custom-nav.php:38
+msgid "offcanvas"
+msgstr ""
+
+#: ../library/custom-nav.php:46
+msgid "left"
+msgstr ""
+
+#: ../library/template-tags.php:23
+msgid "Comment navigation"
+msgstr "അഭിപ്രായങ്ങളിലൂടെ"
+
+#: ../library/template-tags.php:26
+msgid "Older Comments"
+msgstr "പഴയ അഭിപ്രായങ്ങള്‍"
+
+#: ../library/template-tags.php:30
+msgid "Newer Comments"
+msgstr "പുതിയ അഭിപ്രായങ്ങള്‍"
+
+#: ../library/template-tags.php:49
+msgid "Featured"
+msgstr "പ്രധാനപ്പെട്ടത്"
+
+#: ../library/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "ഘടന"
+
+#: ../library/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "പ്രസിദ്ധപ്പെടുത്തി"
+
+#: ../library/template-tags.php:85
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "ലേഖകന്‍"
+
+#: ../library/template-tags.php:91 ../library/template-tags.php:99
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ","
+
+#: ../library/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "വിഭാഗം"
+
+#: ../library/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "ഉപനാമങ്ങള്‍"
+
+#: ../library/template-tags.php:113
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "പൂര്‍ണമായും"
+
+#: ../library/template-tags.php:123
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "അഭിപ്രായം രേഖപെടുത്തുക<span class=\"screen-reader-text\"> on %s</span>"
+
+#~ msgid "https://wordpress.org/themes/twentyfifteen/"
+#~ msgstr "https://wordpress.org/themes/twentyfifteen/"
+
+#~ msgid ""
+#~ "Applied to the header on small screens and the sidebar on wide screens."
+#~ msgstr "ചെറിയ സ്ക്രീനുകളില്‍ തലക്കെട്ടിലും, വലിയ സ്ക്രീനുകളില്‍ അരികിലും പ്രയോഗിക്കുന്നു"
+
+#~ msgid "the WordPress team"
+#~ msgstr "വേഡ്പ്രസ്സ് കൂട്ടായ്മ"
+
+#~ msgid ""
+#~ "Our 2015 default theme is clean, blog-focused, and designed for clarity. "
+#~ "Twenty Fifteen's simple, straightforward typography is readable on a wide "
+#~ "variety of screen sizes, and suitable for multiple languages. We designed "
+#~ "it using a mobile-first approach, meaning your content takes center-"
+#~ "stage, regardless of whether your visitors arrive by smartphone, tablet, "
+#~ "laptop, or desktop computer."
+#~ msgstr ""
+#~ "2015 വേഡ്പ്രസ്സ് തീം ശുദ്ധവും ലളിതമായ രീതിയില്‍ നിര്‍മ്മിച്ചതാകുന്നു. ഈ തീമിന്റെ പ്രാഥമിക "
+#~ "ലക്ഷ്യങ്ങള്‍ എല്ലാ ഭാഷകളിലും മൊബൈല്‍, ടാബ് ലെറ്റ്‌, ലാപ്പ്ടോപ്പ്, ഡസ്ക്ടോപ്പ് എന്നി വ്യത്യസ്ത "
+#~ "സ്ക്രീനുകളില്‍ ഉപയോഗിക്കാമെന്നതുമാണ്."
+
+#~ msgid "Twenty Fifteen"
+#~ msgstr "രണ്ടായിരത്തി പതിനഞ്ച്"
+
+#~ msgid "Blue"
+#~ msgstr "നീല"
+
+#~ msgid "Purple"
+#~ msgstr "പര്‍പിള്‍"
+
+#~ msgid "Pink"
+#~ msgstr "പിങ്ക് "
+
+#~ msgid "Dark"
+#~ msgstr "ഇരുണ്ട"
+
+#~ msgid "Yellow"
+#~ msgstr "മഞ്ഞ"
+
+#~ msgid "Default"
+#~ msgstr "സ്വാഭാവികമായ"
+
+#~ msgid "Header and Sidebar Background Color"
+#~ msgstr "തലക്കെട്ടിന്റേയും അരികിലെത്തേയും പശ്ചാത്തലനിറം"
+
+#~ msgid "Base Color Scheme"
+#~ msgstr "അടിസ്ഥാന വര്‍ണ രൂപരേഖ"
+
+#~ msgid "Header and Sidebar Text Color"
+#~ msgstr "തലക്കെട്ടിന്റെയും അരികിലെത്തെയും വാക്കുകളുടെ നിറം"
+
+#~ msgid ""
+#~ "Twenty Fifteen requires at least WordPress version 4.1. You are running "
+#~ "version %s. Please upgrade and try again."
+#~ msgstr ""
+#~ "2015 തീമിന്‌ വേഡ്പ്രസ്സ് 4.1 പതിപ്പ് നിര്‍ബന്ധമായും വേണം. താങ്കള്‍ ഉപയോഗിക്കുന്നത് പതിപ്പ് %s "
+#~ "ആകുന്നു. പുതിയ പതിപ്പിലേക്ക് മാറിയ ശേഷം ശ്രമിക്കുക. "
+
+#~ msgid "expand child menu"
+#~ msgstr "വികസിപ്പിച്ച ചെറിയ പട്ടിക"
+
+#~ msgid "collapse child menu"
+#~ msgstr "സങ്കോചിപ്പിച്ച ചെറിയ പട്ടിക"
+
+#~ msgid "Add widgets here to appear in your sidebar."
+#~ msgstr "വിഡ്‌ജെറ്റ് അരികില്‍ കാണിക്കാന്‍ ഇവിടെ ചേര്‍ക്കുക"
+
+#~ msgid "Widget Area"
+#~ msgstr "വിഡ്ജെറ്റ് മേഖല "
+
+#~ msgid "Primary Menu"
+#~ msgstr "പ്രധാന പട്ടിക "
+
+#~ msgid "Social Links Menu"
+#~ msgstr "സോഷ്യല്‍ ലിങ്ക് പട്ടിക"
+
+#~ msgid "https://wordpress.org/"
+#~ msgstr "https://wordpress.org/"
