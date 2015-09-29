@@ -49,7 +49,7 @@ grunt js
 
 ## DEMO
 
-  * [The Foundation Starter Theme full documantation] (http://foundationtheme.tadam.co.il/)
+  * [The Foundation Starter Theme] (http://foundationtheme.tadam.co.il/)
   * [See most Foundation elements in action] (http://foundationtheme.tadam.co.il/kitchen-sink/)
 
 ## Documentation

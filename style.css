@@ -7,7 +7,7 @@
  * Version:            	0.5.0
  * License: 		GNU General Public License v2 or later
  * License URI: 	http://www.gnu.org/licenses/gpl-2.0.html
- * Tags:		one-column, two-columns, right-sidebar, left-sidebar, flexible-width, css compass, rtl-language-support, translation-ready, sticky-footer, semantic, mobile first, customizable, fully responsive, accessibility-ready
+ * Tags:		Foundation, one-column, two-columns, left-sidebar, right-sidebar, featured-image, hero, full-width, flexible-width, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, microformats, post-formats, rtl-language-support, threaded-comments, translation-ready, scss, sass, compass, sticky-footer, semantic, mobile first, customizable, fully responsive
  * Text Domain: 	foundation
  * */
 
@@ -16,7 +16,7 @@
  * We will not be using vanilla CSS. We're using Sass
  * 
  * The theme optimized to use with CSS Compass Framework http://compass-style.org/
- * Read how to use Compass to editing SCSS in this theme: http://foundationtheme.tadam.co.il/ *
+ * Read how to use Compass to editing SCSS in this theme: http://foundationtheme.tadam.co.il/editing-scss-with-compass/ *
  *
  * Sass is a superset of CSS that adds in amazing features
  * such as variables, nested selectors and loops. It's also
