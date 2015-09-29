@@ -71,3 +71,6 @@ require_once(get_template_directory().'/library/posts_navigation.php' );
 /** Mimes upload */
 require_once(get_template_directory().'/library/mimes_upload.php' );
 
+/** TGM-Plugin-Activation  */
+require_once(get_template_directory().'/library/tgmpa_plugin_activation.php' );
+
