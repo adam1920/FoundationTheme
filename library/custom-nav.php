@@ -3,8 +3,8 @@
  * Allow users to select Topbar or Offcanvas menu. Adds body class of offcanvas or topbar based on which they choose.
  *
  * @package WordPress
- * @subpackage FoundationPress
- * @since FoundationPress 1.0.0
+ * @subpackage FoundationTheme
+ * @since Foundation Theme 0.5.0
  */
 
 if ( ! function_exists( 'wpt_register_theme_customizer' ) ) :

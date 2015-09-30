@@ -4,8 +4,8 @@
  *
  * @link http://codex.wordpress.org/Function_Reference/register_nav_menus#Examples
  * @package WordPress
- * @subpackage FoundationPress
- * @since FoundationPress 1.0.0
+ * @subpackage FoundationTheme
+ * @since Foundation Theme 0.5.0
  */
 
 register_nav_menus(array(

@@ -3,8 +3,8 @@
  * Protocol Relative Theme Assets
  *
  * @package WordPress
- * @subpackage FoundationPress
- * @since FoundationPress 1.1.0
+ * @subpackage FoundationTheme
+ * @since Foundation Theme 0.5.0
  */
 
 if ( ! class_exists( 'Foundationpress_protocol_relative_theme_assets' ) ) :

@@ -3,8 +3,8 @@
  * Customize the output of menus for Foundation off-canvas menu with multi-level support
  *
  * @package WordPress
- * @subpackage FoundationPress
- * @since FoundationPress 1.0.0
+ * @subpackage FoundationTheme
+ * @since Foundation Theme 0.5.0
  */
 
 if ( ! class_exists( 'Foundation_Offcanvas_Walker' ) ) :

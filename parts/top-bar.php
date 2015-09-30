@@ -3,8 +3,8 @@
  * Template part for top bar menu
  *
  * @package WordPress
- * @subpackage FoundationPress
- * @since FoundationPress 1.0.0
+ * @subpackage FoundationTheme
+ * @since Foundation Theme 0.5.0
  */
 
 $class_var = ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' || !get_theme_mod( 'wpt_mobile_menu_layout' ) ) ? 'hide-for-small-only' : '' ;
