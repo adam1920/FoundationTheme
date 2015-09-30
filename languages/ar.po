@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Foundation Starter Theme 0.5\n"
-"POT-Creation-Date: 2015-09-29 16:35+0200\n"
-"PO-Revision-Date: 2015-09-29 16:36+0200\n"
+"POT-Creation-Date: 2015-09-30 07:21+0200\n"
+"PO-Revision-Date: 2015-09-30 07:22+0200\n"
 "Last-Translator: Adam Pery <adam@tadam.co.il>\n"
 "Language-Team: LANGUAGE <adam@tadam.co.il>\n"
 "Language: ar\n"
@@ -17,10 +17,6 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
-
-#: ../searchform.php:13 ../searchform.php:16
-msgid "Search"
-msgstr "بحث"
 
 #: ../404.php:18
 msgid "Oops! That page can&rsquo;t be found."
@@ -810,6 +806,9 @@ msgstr "الحجم الكامل"
 #, php-format
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "اترك تعليقًا <span class=\"screen-reader-text\"> على %s</span>"
+
+#~ msgid "Search"
+#~ msgstr "بحث"
 
 #~ msgid "https://wordpress.org/themes/twentyfifteen/"
 #~ msgstr "https://wordpress.org/themes/twentyfifteen/"

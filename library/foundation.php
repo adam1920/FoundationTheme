@@ -46,3 +46,17 @@ function foundation_pagination() {
         }
 }
 endif;
+
+/**
+ * Add a `screen-reader-text` class to the search form's submit button.
+ *
+ * @since Foundation Theme 0.5.0
+ *
+ * @param string $html Search form HTML.
+ * @return string Modified search form HTML.
+ */
+function foundation_search_form_modify( $html ) {
+        return str_replace( 'class="search-submit"', 'class="search-submit screen-reader-text"', $html );
+}
+add_filter( 'get_search_form', 'foundation_search_form_modify' );
+

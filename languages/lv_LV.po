@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Foundation Starter Theme 0.5\n"
-"POT-Creation-Date: 2015-09-29 16:38+0200\n"
-"PO-Revision-Date: 2015-09-29 16:38+0200\n"
+"POT-Creation-Date: 2015-09-30 07:22+0200\n"
+"PO-Revision-Date: 2015-09-30 07:22+0200\n"
 "Last-Translator: Adam Pery <adam@tadam.co.il>\n"
 "Language-Team: LANGUAGE <adam@tadam.co.il>\n"
 "Language: lv_LV\n"
@@ -16,10 +16,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
-
-#: ../searchform.php:13 ../searchform.php:16
-msgid "Search"
-msgstr "Meklēt"
 
 #: ../404.php:18
 msgid "Oops! That page can&rsquo;t be found."
@@ -758,6 +754,9 @@ msgstr "Pilnais izmērs"
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 "Atstājiet savu komentāru<span class=\"screen-reader-text\"> par %s</span>"
+
+#~ msgid "Search"
+#~ msgstr "Meklēt"
 
 #~ msgid "https://wordpress.org/themes/twentyfifteen/"
 #~ msgstr "https://wordpress.org/themes/twentyfifteen/"
