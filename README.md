@@ -3,6 +3,10 @@ The primary WordPress starter-theme built on Foundation 5 by Zurb using Compass.
 
 The easiest way to get started with Foundation + Compass.
 
+Here’s a detailed  YouTube video how to install Foundation Starter Theme.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y0xXPe0KiBo" frameborder="0" allowfullscreen></iframe>
+
 ## Requirements
 
   * Ruby 1.9+
