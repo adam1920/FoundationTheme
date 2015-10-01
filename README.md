@@ -5,7 +5,7 @@ The easiest way to get started with Foundation + Compass.
 
 Here’s a detailed  YouTube video how to install Foundation Starter Theme.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y0xXPe0KiBo" frameborder="0" allowfullscreen></iframe>
+[![ScreenShot](http://foundationtheme.tadam.co.il/wp-content/themes/foundation/images/youtube_video.png)](https://youtu.be/y0xXPe0KiBo)
 
 ## Requirements
 
