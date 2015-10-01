@@ -39,8 +39,7 @@
 		</div><!-- /.footer-wrapper -->
 	</footer><!-- .site-footer -->
 
-
-<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
+<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' || !get_theme_mod( 'wpt_mobile_menu_layout' ) ) : ?>
         </div>
 </div>
 <?php endif; ?>

@@ -20,7 +20,7 @@
 
 <body <?php body_class(); ?>>
 <?php my_body(); ?>
-<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
+<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' || !get_theme_mod( 'wpt_mobile_menu_layout' ) ) : ?>
         <div class="off-canvas-wrap" data-offcanvas>
         <div class="inner-wrap">
 <?php endif; ?>
