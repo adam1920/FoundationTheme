@@ -20,10 +20,11 @@ if ( post_password_required() ) {
 }
 ?>
 
-
+<?php if ( have_comments() || comments_open() ) : ?>
+	<div id="comments" class="comments-area">
+<?php endif; ?>
 
 	<?php if ( have_comments() ) : ?>
-		<div id="comments" class="comments-area">
 		<h2 class="comments-title">
 			<?php
 				printf( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'foundation' ),
@@ -44,7 +45,6 @@ if ( post_password_required() ) {
 		</ol><!-- .comment-list -->
 
 		<?php foundation_comment_nav(); ?>
-		</div><!-- .comments-area -->
 	<?php endif; // have_comments() ?>
 
 	<?php
@@ -56,4 +56,7 @@ if ( post_password_required() ) {
 
 	<?php comment_form(Array('class_submit' => 'button')); ?>
 
+<?php if ( have_comments() || comments_open() ) : ?>
+</div><!-- .comments-area -->
+<?php endif; ?>
 
