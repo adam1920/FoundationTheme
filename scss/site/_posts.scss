@@ -100,18 +100,36 @@ blockquote.aligncenter, .wp-caption.aligncenter, img.aligncenter {
                 top: rem-calc(7);
                 left: rem-calc(6);
         }
+	[dir=rtl]{
+		.bypostauthor > article .fn:after {
+                        right: rem-calc(6);
+                        left: auto;
+                }
+	}
 }
 @media screen and (min-width: $medium-breakpoint) {
 	.bypostauthor > article .fn:after {
                 top: rem-calc(5);
                 left: rem-calc(3);
         }
+	[dir=rtl]{
+		.bypostauthor > article .fn:after {
+        	        right: rem-calc(3);
+        	        left: auto;
+	        }
+	}
 }
 @media screen and (min-width: $large-breakpoint) {
 	.bypostauthor > article .fn:after {
                 top: rem-calc(7);
                 left: rem-calc(6);
         }
+	[dir=rtl]{
+		.bypostauthor > article .fn:after {
+        	        right: rem-calc(6);
+        	        left: auto;
+	        }
+	}
 }
 @media screen and (min-width: $xlarge-breakpoint) {
 	.bypostauthor > article .fn:after {
@@ -124,22 +142,5 @@ blockquote.aligncenter, .wp-caption.aligncenter, img.aligncenter {
 		border-left: none;
 		border-right: rem-calc(7) solid $oil;
 	}
-	@media screen and (min-width: $small-breakpoint) {
- 	       .bypostauthor > article .fn:after {
-	               	right: rem-calc(6);
-	               	left: auto;
-        	}
-	}
-	@media screen and (min-width: $medium-breakpoint) {
-        	.bypostauthor > article .fn:after {
-	                right: rem-calc(3);
-	                left: auto;
-        	}
-	}
-	@media screen and (min-width: $large-breakpoint) {
-        	.bypostauthor > article .fn:after {
-	                right: rem-calc(6);
-	                left: auto;
-        	}
-	}
 }
+
